@@ -270,10 +270,14 @@ to get-data-from-files
       set planning-fisher-revenue file-read
       set training-fisher-revenue file-read
       set enforcement-fisher-revenue file-read
-      set research-schemes read-from-string file-read-line
-      set planning-schemes read-from-string  file-read-line
-      set training-schemes read-from-string file-read-line
-      set enforcement-schemes read-from-string file-read-line
+      set research-schemes rfile-read-line
+      set planning-schemes file-read-line
+      set training-schemes file-read-line
+      set enforcement-schemes file-read-line
+
+      print research-schemes
+      print planning-schemes
+
 
       file-close
       ;user-message (word "Data set file named " filename " is loaded.")
@@ -1069,7 +1073,7 @@ CHOOSER
 population
 population
 "anini-y" "arteche" "bien-unido" "carles" "dipolog" "jose-panganiban" "maasim" "macarthur" "magsingal" "mansalay" "masinloc" "mercedes" "pagsanghan" "rtlim" "socorro" "lchi" "lcli" "hchi" "hcli" "blgf-type1" "blgf-type2" "blgf-type3" "blgf-type4"
-0
+5
 
 CHOOSER
 292
@@ -1079,7 +1083,7 @@ CHOOSER
 scenario
 scenario
 "bau" "fish-catch" "fisher-revenue" "both"
-0
+3
 
 BUTTON
 4
