@@ -6,7 +6,7 @@
 23.32
 15.63
 8.54
-"national-funds" "public-funds"
-"national-funds" "public-funds"
-"national-funds" "public-funds" "private-sector"
-"national-funds" "private-sector"
+["national-funds" "public-funds"]
+["national-funds" "public-funds"]
+["national-funds" "public-funds" "private-sector"]
+["national-funds" "private-sector"]
