@@ -1,3 +1,4 @@
+extensions [ cf ]
 ;Definition of agents
 breed [blgu-players blgu-player]
 breed [mplgu-players mplgu-player]
@@ -6,32 +7,137 @@ breed [academe-players academe-player]
 breed [business-players business-player]
 breed [nga-players nga-player]
 
-;Definition of global variables
-globals [
-  ;Stores the responses for each financing scheme
-  public-funds local-bonds national-funds credit-windows grants private-sector
-
-  ;Stores the responses per criteria for each financing scheme
-  sustainability-pf accessibility-pf sufficiency-pf adoption-pf
-  sustainability-lb accessibility-lb sufficiency-lb adoption-lb
-  sustainability-nf accessibility-nf sufficiency-nf adoption-nf
-  sustainability-cw accessibility-cw sufficiency-cw adoption-cw
-  sustainability-g accessibility-g sufficiency-g adoption-g
-  sustainability-ps accessibility-ps sufficiency-ps adoption-ps
-
-  lcli lchi hcli hchi type1 type2 type3 type4
-
-  totals summ
-]
-
 ;At a particular time, the players have a weighted total of the responses for each criteria
-;and a ranking which is an ordered list of financing schemes, sorted by weighted total
+;and a ranking which is an ordered list of financing schemes, sorted by weighted total.
+;ranking is not used during experiments to limit runtime
 blgu-players-own     [ pf lb nf cw g ps ranking]
 mplgu-players-own    [ pf lb nf cw g ps ranking]
 bd-players-own       [ pf lb nf cw g ps ranking]
 academe-players-own  [ pf lb nf cw g ps ranking]
 business-players-own [ pf lb nf cw g ps ranking]
 nga-players-own      [ pf lb nf cw g ps ranking]
+
+;Definition of global variables
+globals [
+;Stores the stakeholder type for each response
+  actors
+
+  ;Stores the responses for each financing scheme
+  public-funds local-bonds national-funds credit-windows grants private-sector
+
+  ;Stores the responses per stakeholder type for each financing scheme
+  blgu-pf mplgu-pf bd-pf academe-pf business-pf nga-pf
+  blgu-lb mplgu-lb bd-lb academe-lb business-lb nga-lb
+  blgu-nf mplgu-nf bd-nf academe-nf business-nf nga-nf
+  blgu-cw mplgu-cw bd-cw academe-cw business-cw nga-cw
+  blgu-g mplgu-g bd-g academe-g business-g nga-g
+  blgu-ps mplgu-ps bd-ps academe-ps business-ps nga-ps
+
+  ;Stores the weighted sustainability responses per stakeholder type for each financing scheme
+  sus-w-blgu-pf sus-w-mplgu-pf sus-w-bd-pf sus-w-academe-pf sus-w-business-pf sus-w-nga-pf
+  sus-w-blgu-lb sus-w-mplgu-lb sus-w-bd-lb sus-w-academe-lb sus-w-business-lb sus-w-nga-lb
+  sus-w-blgu-nf sus-w-mplgu-nf sus-w-bd-nf sus-w-academe-nf sus-w-business-nf sus-w-nga-nf
+  sus-w-blgu-cw sus-w-mplgu-cw sus-w-bd-cw sus-w-academe-cw sus-w-business-cw sus-w-nga-cw
+  sus-w-blgu-g sus-w-mplgu-g sus-w-bd-g sus-w-academe-g sus-w-business-g sus-w-nga-g
+  sus-w-blgu-ps sus-w-mplgu-ps sus-w-bd-ps sus-w-academe-ps sus-w-business-ps sus-w-nga-ps
+
+  ;Stores the weighted accessibility responses per stakeholder type for each financing scheme
+  acc-w-blgu-pf acc-w-mplgu-pf acc-w-bd-pf acc-w-academe-pf acc-w-business-pf acc-w-nga-pf
+  acc-w-blgu-lb acc-w-mplgu-lb acc-w-bd-lb acc-w-academe-lb acc-w-business-lb acc-w-nga-lb
+  acc-w-blgu-nf acc-w-mplgu-nf acc-w-bd-nf acc-w-academe-nf acc-w-business-nf acc-w-nga-nf
+  acc-w-blgu-cw acc-w-mplgu-cw acc-w-bd-cw acc-w-academe-cw acc-w-business-cw acc-w-nga-cw
+  acc-w-blgu-g acc-w-mplgu-g acc-w-bd-g acc-w-academe-g acc-w-business-g acc-w-nga-g
+  acc-w-blgu-ps acc-w-mplgu-ps acc-w-bd-ps acc-w-academe-ps acc-w-business-ps acc-w-nga-ps
+
+  ;Stores the weighted sufficiency responses per stakeholder type for each financing scheme
+  suff-w-blgu-pf suff-w-mplgu-pf suff-w-bd-pf suff-w-academe-pf suff-w-business-pf suff-w-nga-pf
+  suff-w-blgu-lb suff-w-mplgu-lb suff-w-bd-lb suff-w-academe-lb suff-w-business-lb suff-w-nga-lb
+  suff-w-blgu-nf suff-w-mplgu-nf suff-w-bd-nf suff-w-academe-nf suff-w-business-nf suff-w-nga-nf
+  suff-w-blgu-cw suff-w-mplgu-cw suff-w-bd-cw suff-w-academe-cw suff-w-business-cw suff-w-nga-cw
+  suff-w-blgu-g suff-w-mplgu-g suff-w-bd-g suff-w-academe-g suff-w-business-g suff-w-nga-g
+  suff-w-blgu-ps suff-w-mplgu-ps suff-w-bd-ps suff-w-academe-ps suff-w-business-ps suff-w-nga-ps
+
+  ;Stores the weighted adoption responses per stakeholder type for each financing scheme
+  adop-w-blgu-pf adop-w-mplgu-pf adop-w-bd-pf adop-w-academe-pf adop-w-business-pf adop-w-nga-pf
+  adop-w-blgu-lb adop-w-mplgu-lb adop-w-bd-lb adop-w-academe-lb adop-w-business-lb adop-w-nga-lb
+  adop-w-blgu-nf adop-w-mplgu-nf adop-w-bd-nf adop-w-academe-nf adop-w-business-nf adop-w-nga-nf
+  adop-w-blgu-cw adop-w-mplgu-cw adop-w-bd-cw adop-w-academe-cw adop-w-business-cw adop-w-nga-cw
+  adop-w-blgu-g adop-w-mplgu-g adop-w-bd-g adop-w-academe-g adop-w-business-g adop-w-nga-g
+  adop-w-blgu-ps adop-w-mplgu-ps adop-w-bd-ps adop-w-academe-ps adop-w-business-ps adop-w-nga-ps
+
+  lcli lchi hcli hchi type1 type2 type3 type4
+
+  totals summ
+]
+
+to reset-variables
+  set actors []
+
+  set lcli ["masinloc" "nasugbu" "dinapigue" "anini-y" "macarthur" "pagsanghan"]
+  set lchi ["claveria" "baliguian" "socorro" "bien-unido" "carles"]
+  set hcli ["magsingal" "gasan" "jose-panganiban" "mansalay" "maasim" "toboso"]
+  set hchi ["jomalig" "quezon" "dipolog" "rtlim" "arteche" "daanbantayan" "mercedes"]
+
+  set public-funds []
+  set local-bonds []
+  set national-funds []
+  set credit-windows []
+  set grants []
+  set private-sector []
+
+  set blgu-pf []
+  set mplgu-pf []
+  set bd-pf []
+  set academe-pf []
+  set business-pf []
+  set nga-pf []
+
+  set blgu-lb []
+  set mplgu-lb []
+  set bd-lb []
+  set academe-lb []
+  set business-lb []
+  set nga-lb []
+
+  set blgu-nf []
+  set mplgu-nf []
+  set bd-nf []
+  set academe-nf []
+  set business-nf []
+  set nga-nf []
+
+  set blgu-cw []
+  set mplgu-cw []
+  set bd-cw []
+  set academe-cw []
+  set business-cw []
+  set nga-cw []
+
+  set blgu-g []
+  set mplgu-g []
+  set bd-g []
+  set academe-g []
+  set business-g []
+  set nga-g []
+
+  set blgu-ps []
+  set mplgu-ps []
+  set bd-ps []
+  set academe-ps []
+  set business-ps []
+  set nga-ps []
+
+  let criteria ["sus-w-" "acc-w-" "suff-w-" "adop-w-"]
+  let actor-types ["blgu-" "mplgu-" "bd-" "academe-" "business-" "nga-"]
+  let fund-sources ["pf" "lb" "nf" "cw" "g" "ps"]
+  foreach criteria [ criterion ->
+    foreach actor-types [actor-type ->
+      foreach fund-sources [fund-source ->
+        run (word "set " criterion actor-type fund-source " []")
+      ]
+    ]
+  ]
+end
 
 ;Reports total amoount of weight
 to-report total
@@ -87,70 +193,7 @@ to distribute [financing-scheme]
   ]
 end
 
-;Set ups the whole simulation
-to spawn
-  ;Reset every list and individual variables
-  clear-all
-  reset-ticks
-
-  set lcli ["masinloc" "nasugbu" "dinapigue" "anini-y" "macarthur" "pagsanghan"]
-  set lchi ["claveria" "baliguian" "socorro" "bien-unido" "carles"]
-  set hcli ["magsingal" "gasan" "jose-panganiban" "mansalay" "maasim" "toboso"]
-  set hchi ["jomalig" "quezon" "dipolog" "rtlim" "arteche" "daanbantayan" "mercedes"]
-
-  set public-funds []
-  set local-bonds []
-  set national-funds []
-  set credit-windows []
-  set grants []
-  set private-sector []
-
-  set sustainability-pf []
-  set accessibility-pf []
-  set sufficiency-pf []
-  set adoption-pf []
-
-  set sustainability-lb []
-  set accessibility-lb []
-  set sufficiency-lb []
-  set adoption-lb []
-
-  set sustainability-nf []
-  set accessibility-nf []
-  set sufficiency-nf []
-  set adoption-nf []
-
-  set sustainability-cw []
-  set accessibility-cw []
-  set sufficiency-cw []
-  set adoption-cw []
-
-  set sustainability-g []
-  set accessibility-g []
-  set sufficiency-g []
-  set adoption-g []
-
-  set sustainability-ps []
-  set accessibility-ps []
-  set sufficiency-ps []
-  set adoption-ps []
-
-  ;Check if total of the weights is 100
-  if total != 100
-  [error "Total of weights should be exactly 100."]
-
-  if total-players = 0
-  [error "There are no players."]
-
-  ;user-message "Population file has been found. Entering data set."
-
-  ;Spawn agents
-  let agents ["blgu" "mplgu" "academe" "bd" "business" "nga"]
-  let colors [blue green yellow red white magenta]
-  (foreach agents colors [
-    [agent shade] -> spawn-agent agent shade
-  ])
-
+to get-data-from-files
   ;Check if the data set is found in the directory
   let population-list []
   set population-list fput population population-list
@@ -163,7 +206,26 @@ to spawn
   set-current-directory "responses"
   foreach population-list
   [
-    town -> set filename (word town "-" scenario)
+    town ->
+
+    ; Get stakeholders list
+    set filename (word town "-actors")
+    if-else not file-exists? filename
+    [error (word "Data set file named " filename " not found.") ]
+    [
+      ;Get data from file
+      file-open filename
+
+      ;Ordering is based on the conduct of the RPG
+      while [not file-at-end?] [
+        set actors lput file-read actors
+      ]
+
+      file-close
+      ;user-message (word "Data set file named " filename " is loaded.")
+    ]
+
+    set filename (word town "-" scenario)
     if-else not file-exists? filename
     [error (word "Data set file named " filename " not found.") ]
     [
@@ -181,17 +243,424 @@ to spawn
       ]
 
       file-close
-
-      ;user-message (word "Data set file named " filename " is loaded.")
     ]
+
+  ] ;for-each population-list
+end ; get-data-from-files
+
+to distribute-to-stakeholders
+  ; check if an expor-world file is available, then import
+
+  let response 0
+  foreach actors [ actor ->
+    (cf:ifelse actor = "blgu" [
+      set response first public-funds
+      set blgu-pf lput response blgu-pf
+      set sus-w-blgu-pf lput (floor response mod 10) sus-w-blgu-pf
+      set response floor response / 10
+      set adop-w-blgu-pf lput (floor response mod 10) adop-w-blgu-pf
+      set response floor response / 10
+      set suff-w-blgu-pf lput (floor response mod 10) suff-w-blgu-pf
+      set response floor response / 10
+      set acc-w-blgu-pf lput (floor response mod 10) acc-w-blgu-pf
+
+      set response first local-bonds
+      set blgu-lb lput response blgu-lb
+      set sus-w-blgu-lb lput (floor response mod 10) sus-w-blgu-lb
+      set response floor response / 10
+      set adop-w-blgu-lb lput (floor response mod 10) adop-w-blgu-lb
+      set response floor response / 10
+      set suff-w-blgu-lb lput (floor response mod 10) suff-w-blgu-lb
+      set response floor response / 10
+      set acc-w-blgu-lb lput (floor response mod 10) acc-w-blgu-lb
+
+      set response first national-funds
+      set blgu-nf lput response blgu-nf
+      set sus-w-blgu-nf lput (floor response mod 10) sus-w-blgu-nf
+      set response floor response / 10
+      set adop-w-blgu-nf lput (floor response mod 10) adop-w-blgu-nf
+      set response floor response / 10
+      set suff-w-blgu-nf lput (floor response mod 10) suff-w-blgu-nf
+      set response floor response / 10
+      set acc-w-blgu-nf lput (floor response mod 10) acc-w-blgu-nf
+
+      set response first credit-windows
+      set blgu-cw lput response blgu-cw
+      set sus-w-blgu-cw lput (floor response mod 10) sus-w-blgu-cw
+      set response floor response / 10
+      set adop-w-blgu-cw lput (floor response mod 10) adop-w-blgu-cw
+      set response floor response / 10
+      set suff-w-blgu-cw lput (floor response mod 10) suff-w-blgu-cw
+      set response floor response / 10
+      set acc-w-blgu-cw lput (floor response mod 10) acc-w-blgu-cw
+
+      set response first grants
+      set blgu-g lput response blgu-g
+      set sus-w-blgu-g lput (floor response mod 10) sus-w-blgu-g
+      set response floor response / 10
+      set adop-w-blgu-g lput (floor response mod 10) adop-w-blgu-g
+      set response floor response / 10
+      set suff-w-blgu-g lput (floor response mod 10) suff-w-blgu-g
+      set response floor response / 10
+      set acc-w-blgu-g lput (floor response mod 10) acc-w-blgu-g
+
+      set response first private-sector
+      set blgu-ps lput response blgu-ps
+      set sus-w-blgu-ps lput (floor response mod 10) sus-w-blgu-ps
+      set response floor response / 10
+      set adop-w-blgu-ps lput (floor response mod 10) adop-w-blgu-ps
+      set response floor response / 10
+      set suff-w-blgu-ps lput (floor response mod 10) suff-w-blgu-ps
+      set response floor response / 10
+      set acc-w-blgu-ps lput (floor response mod 10) acc-w-blgu-ps
+    ]
+    actor = "mplgu" [
+      set response first public-funds
+      set mplgu-pf lput response mplgu-pf
+      set sus-w-mplgu-pf lput (floor response mod 10) sus-w-mplgu-pf
+      set response floor response / 10
+      set adop-w-mplgu-pf lput (floor response mod 10) adop-w-mplgu-pf
+      set response floor response / 10
+      set suff-w-mplgu-pf lput (floor response mod 10) suff-w-mplgu-pf
+      set response floor response / 10
+      set acc-w-mplgu-pf lput (floor response mod 10) acc-w-mplgu-pf
+
+      set response first local-bonds
+      set mplgu-lb lput response mplgu-lb
+      set sus-w-mplgu-lb lput (floor response mod 10) sus-w-mplgu-lb
+      set response floor response / 10
+      set adop-w-mplgu-lb lput (floor response mod 10) adop-w-mplgu-lb
+      set response floor response / 10
+      set suff-w-mplgu-lb lput (floor response mod 10) suff-w-mplgu-lb
+      set response floor response / 10
+      set acc-w-mplgu-lb lput (floor response mod 10) acc-w-mplgu-lb
+
+      set response first national-funds
+      set mplgu-nf lput response mplgu-nf
+      set sus-w-mplgu-nf lput (floor response mod 10) sus-w-mplgu-nf
+      set response floor response / 10
+      set adop-w-mplgu-nf lput (floor response mod 10) adop-w-mplgu-nf
+      set response floor response / 10
+      set suff-w-mplgu-nf lput (floor response mod 10) suff-w-mplgu-nf
+      set response floor response / 10
+      set acc-w-mplgu-nf lput (floor response mod 10) acc-w-mplgu-nf
+
+      set response first credit-windows
+      set mplgu-cw lput response mplgu-cw
+      set sus-w-mplgu-cw lput (floor response mod 10) sus-w-mplgu-cw
+      set response floor response / 10
+      set adop-w-mplgu-cw lput (floor response mod 10) adop-w-mplgu-cw
+      set response floor response / 10
+      set suff-w-mplgu-cw lput (floor response mod 10) suff-w-mplgu-cw
+      set response floor response / 10
+      set acc-w-mplgu-cw lput (floor response mod 10) acc-w-mplgu-cw
+
+      set response first grants
+      set mplgu-g lput response mplgu-g
+      set sus-w-mplgu-g lput (floor response mod 10) sus-w-mplgu-g
+      set response floor response / 10
+      set adop-w-mplgu-g lput (floor response mod 10) adop-w-mplgu-g
+      set response floor response / 10
+      set suff-w-mplgu-g lput (floor response mod 10) suff-w-mplgu-g
+      set response floor response / 10
+      set acc-w-mplgu-g lput (floor response mod 10) acc-w-mplgu-g
+
+      set response first private-sector
+      set mplgu-ps lput response mplgu-ps
+      set sus-w-mplgu-ps lput (floor response mod 10) sus-w-mplgu-ps
+      set response floor response / 10
+      set adop-w-mplgu-ps lput (floor response mod 10) adop-w-mplgu-ps
+      set response floor response / 10
+      set suff-w-mplgu-ps lput (floor response mod 10) suff-w-mplgu-ps
+      set response floor response / 10
+      set acc-w-mplgu-ps lput (floor response mod 10) acc-w-mplgu-ps
+    ]
+    actor = "bd"[
+      set response first public-funds
+      set bd-pf lput response bd-pf
+      set sus-w-bd-pf lput (floor response mod 10) sus-w-bd-pf
+      set response floor response / 10
+      set adop-w-bd-pf lput (floor response mod 10) adop-w-bd-pf
+      set response floor response / 10
+      set suff-w-bd-pf lput (floor response mod 10) suff-w-bd-pf
+      set response floor response / 10
+      set acc-w-bd-pf lput (floor response mod 10) acc-w-bd-pf
+
+      set response first local-bonds
+      set bd-lb lput response bd-lb
+      set sus-w-bd-lb lput (floor response mod 10) sus-w-bd-lb
+      set response floor response / 10
+      set adop-w-bd-lb lput (floor response mod 10) adop-w-bd-lb
+      set response floor response / 10
+      set suff-w-bd-lb lput (floor response mod 10) suff-w-bd-lb
+      set response floor response / 10
+      set acc-w-bd-lb lput (floor response mod 10) acc-w-bd-lb
+
+      set response first national-funds
+      set bd-nf lput response bd-nf
+      set sus-w-bd-nf lput (floor response mod 10) sus-w-bd-nf
+      set response floor response / 10
+      set adop-w-bd-nf lput (floor response mod 10) adop-w-bd-nf
+      set response floor response / 10
+      set suff-w-bd-nf lput (floor response mod 10) suff-w-bd-nf
+      set response floor response / 10
+      set acc-w-bd-nf lput (floor response mod 10) acc-w-bd-nf
+
+      set response first credit-windows
+      set bd-cw lput response bd-cw
+      set sus-w-bd-cw lput (floor response mod 10) sus-w-bd-cw
+      set response floor response / 10
+      set adop-w-bd-cw lput (floor response mod 10) adop-w-bd-cw
+      set response floor response / 10
+      set suff-w-bd-cw lput (floor response mod 10) suff-w-bd-cw
+      set response floor response / 10
+      set acc-w-bd-cw lput (floor response mod 10) acc-w-bd-cw
+
+      set response first grants
+      set bd-g lput response bd-g
+      set sus-w-bd-g lput (floor response mod 10) sus-w-bd-g
+      set response floor response / 10
+      set adop-w-bd-g lput (floor response mod 10) adop-w-bd-g
+      set response floor response / 10
+      set suff-w-bd-g lput (floor response mod 10) suff-w-bd-g
+      set response floor response / 10
+      set acc-w-bd-g lput (floor response mod 10) acc-w-bd-g
+
+      set response first private-sector
+      set bd-ps lput response bd-ps
+      set sus-w-bd-ps lput (floor response mod 10) sus-w-bd-ps
+      set response floor response / 10
+      set adop-w-bd-ps lput (floor response mod 10) adop-w-bd-ps
+      set response floor response / 10
+      set suff-w-bd-ps lput (floor response mod 10) suff-w-bd-ps
+      set response floor response / 10
+      set acc-w-bd-ps lput (floor response mod 10) acc-w-bd-ps
+    ]
+    actor = "academe"[
+      set response first public-funds
+      set academe-pf lput response academe-pf
+      set sus-w-academe-pf lput (floor response mod 10) sus-w-academe-pf
+      set response floor response / 10
+      set adop-w-academe-pf lput (floor response mod 10) adop-w-academe-pf
+      set response floor response / 10
+      set suff-w-academe-pf lput (floor response mod 10) suff-w-academe-pf
+      set response floor response / 10
+      set acc-w-academe-pf lput (floor response mod 10) acc-w-academe-pf
+
+      set response first local-bonds
+      set academe-lb lput response academe-lb
+      set sus-w-academe-lb lput (floor response mod 10) sus-w-academe-lb
+      set response floor response / 10
+      set adop-w-academe-lb lput (floor response mod 10) adop-w-academe-lb
+      set response floor response / 10
+      set suff-w-academe-lb lput (floor response mod 10) suff-w-academe-lb
+      set response floor response / 10
+      set acc-w-academe-lb lput (floor response mod 10) acc-w-academe-lb
+
+      set response first national-funds
+      set academe-nf lput response academe-nf
+      set sus-w-academe-nf lput (floor response mod 10) sus-w-academe-nf
+      set response floor response / 10
+      set adop-w-academe-nf lput (floor response mod 10) adop-w-academe-nf
+      set response floor response / 10
+      set suff-w-academe-nf lput (floor response mod 10) suff-w-academe-nf
+      set response floor response / 10
+      set acc-w-academe-nf lput (floor response mod 10) acc-w-academe-nf
+
+      set response first credit-windows
+      set academe-cw lput response academe-cw
+      set sus-w-academe-cw lput (floor response mod 10) sus-w-academe-cw
+      set response floor response / 10
+      set adop-w-academe-cw lput (floor response mod 10) adop-w-academe-cw
+      set response floor response / 10
+      set suff-w-academe-cw lput (floor response mod 10) suff-w-academe-cw
+      set response floor response / 10
+      set acc-w-academe-cw lput (floor response mod 10) acc-w-academe-cw
+
+      set response first grants
+      set academe-g lput response academe-g
+      set sus-w-academe-g lput (floor response mod 10) sus-w-academe-g
+      set response floor response / 10
+      set adop-w-academe-g lput (floor response mod 10) adop-w-academe-g
+      set response floor response / 10
+      set suff-w-academe-g lput (floor response mod 10) suff-w-academe-g
+      set response floor response / 10
+      set acc-w-academe-g lput (floor response mod 10) acc-w-academe-g
+
+      set response first private-sector
+      set academe-ps lput response academe-ps
+      set sus-w-academe-ps lput (floor response mod 10) sus-w-academe-ps
+      set response floor response / 10
+      set adop-w-academe-ps lput (floor response mod 10) adop-w-academe-ps
+      set response floor response / 10
+      set suff-w-academe-ps lput (floor response mod 10) suff-w-academe-ps
+      set response floor response / 10
+      set acc-w-academe-ps lput (floor response mod 10) acc-w-academe-ps
+    ]
+    actor = "business"[
+      set response first public-funds
+      set business-pf lput response business-pf
+      set sus-w-business-pf lput (floor response mod 10) sus-w-business-pf
+      set response floor response / 10
+      set adop-w-business-pf lput (floor response mod 10) adop-w-business-pf
+      set response floor response / 10
+      set suff-w-business-pf lput (floor response mod 10) suff-w-business-pf
+      set response floor response / 10
+      set acc-w-business-pf lput (floor response mod 10) acc-w-business-pf
+
+      set response first local-bonds
+      set business-lb lput response business-lb
+      set sus-w-business-lb lput (floor response mod 10) sus-w-business-lb
+      set response floor response / 10
+      set adop-w-business-lb lput (floor response mod 10) adop-w-business-lb
+      set response floor response / 10
+      set suff-w-business-lb lput (floor response mod 10) suff-w-business-lb
+      set response floor response / 10
+      set acc-w-business-lb lput (floor response mod 10) acc-w-business-lb
+
+      set response first national-funds
+      set business-nf lput response business-nf
+      set sus-w-business-nf lput (floor response mod 10) sus-w-business-nf
+      set response floor response / 10
+      set adop-w-business-nf lput (floor response mod 10) adop-w-business-nf
+      set response floor response / 10
+      set suff-w-business-nf lput (floor response mod 10) suff-w-business-nf
+      set response floor response / 10
+      set acc-w-business-nf lput (floor response mod 10) acc-w-business-nf
+
+      set response first credit-windows
+      set business-cw lput response business-cw
+      set sus-w-business-cw lput (floor response mod 10) sus-w-business-cw
+      set response floor response / 10
+      set adop-w-business-cw lput (floor response mod 10) adop-w-business-cw
+      set response floor response / 10
+      set suff-w-business-cw lput (floor response mod 10) suff-w-business-cw
+      set response floor response / 10
+      set acc-w-business-cw lput (floor response mod 10) acc-w-business-cw
+
+      set response first grants
+      set business-g lput response business-g
+      set sus-w-business-g lput (floor response mod 10) sus-w-business-g
+      set response floor response / 10
+      set adop-w-business-g lput (floor response mod 10) adop-w-business-g
+      set response floor response / 10
+      set suff-w-business-g lput (floor response mod 10) suff-w-business-g
+      set response floor response / 10
+      set acc-w-business-g lput (floor response mod 10) acc-w-business-g
+
+      set response first private-sector
+      set business-ps lput response business-ps
+      set sus-w-business-ps lput (floor response mod 10) sus-w-business-ps
+      set response floor response / 10
+      set adop-w-business-ps lput (floor response mod 10) adop-w-business-ps
+      set response floor response / 10
+      set suff-w-business-ps lput (floor response mod 10) suff-w-business-ps
+      set response floor response / 10
+      set acc-w-business-ps lput (floor response mod 10) acc-w-business-ps
+    ]
+    actor = "nga"[
+      set response first public-funds
+      set nga-pf lput response nga-pf
+      set sus-w-nga-pf lput (floor response mod 10) sus-w-nga-pf
+      set response floor response / 10
+      set adop-w-nga-pf lput (floor response mod 10) adop-w-nga-pf
+      set response floor response / 10
+      set suff-w-nga-pf lput (floor response mod 10) suff-w-nga-pf
+      set response floor response / 10
+      set acc-w-nga-pf lput (floor response mod 10) acc-w-nga-pf
+
+      set response first local-bonds
+      set nga-lb lput response nga-lb
+      set sus-w-nga-lb lput (floor response mod 10) sus-w-nga-lb
+      set response floor response / 10
+      set adop-w-nga-lb lput (floor response mod 10) adop-w-nga-lb
+      set response floor response / 10
+      set suff-w-nga-lb lput (floor response mod 10) suff-w-nga-lb
+      set response floor response / 10
+      set acc-w-nga-lb lput (floor response mod 10) acc-w-nga-lb
+
+      set response first national-funds
+      set nga-nf lput response nga-nf
+      set sus-w-nga-nf lput (floor response mod 10) sus-w-nga-nf
+      set response floor response / 10
+      set adop-w-nga-nf lput (floor response mod 10) adop-w-nga-nf
+      set response floor response / 10
+      set suff-w-nga-nf lput (floor response mod 10) suff-w-nga-nf
+      set response floor response / 10
+      set acc-w-nga-nf lput (floor response mod 10) acc-w-nga-nf
+
+      set response first credit-windows
+      set nga-cw lput response nga-cw
+      set sus-w-nga-cw lput (floor response mod 10) sus-w-nga-cw
+      set response floor response / 10
+      set adop-w-nga-cw lput (floor response mod 10) adop-w-nga-cw
+      set response floor response / 10
+      set suff-w-nga-cw lput (floor response mod 10) suff-w-nga-cw
+      set response floor response / 10
+      set acc-w-nga-cw lput (floor response mod 10) acc-w-nga-cw
+
+      set response first grants
+      set nga-g lput response nga-g
+      set sus-w-nga-g lput (floor response mod 10) sus-w-nga-g
+      set response floor response / 10
+      set adop-w-nga-g lput (floor response mod 10) adop-w-nga-g
+      set response floor response / 10
+      set suff-w-nga-g lput (floor response mod 10) suff-w-nga-g
+      set response floor response / 10
+      set acc-w-nga-g lput (floor response mod 10) acc-w-nga-g
+
+      set response first private-sector
+      set nga-ps lput response nga-ps
+      set sus-w-nga-ps lput (floor response mod 10) sus-w-nga-ps
+      set response floor response / 10
+      set adop-w-nga-ps lput (floor response mod 10) adop-w-nga-ps
+      set response floor response / 10
+      set suff-w-nga-ps lput (floor response mod 10) suff-w-nga-ps
+      set response floor response / 10
+      set acc-w-nga-ps lput (floor response mod 10) acc-w-nga-ps
+    ]
+    [
+      error "Actor not recognized."
+    ]
+    ); cf:ifelse
+
+    ;delete copied items
+    set public-funds but-first public-funds
+    set local-bonds but-first local-bonds
+    set national-funds but-first national-funds
+    set credit-windows but-first credit-windows
+    set grants but-first grants
+    set private-sector but-first private-sector
   ]
 
-  ;Distribute the responses to the financing schemes
-  let financing-schemes ["public-funds" "local-bonds" "national-funds" "credit-windows" "grants" "private-sector"]
-  foreach financing-schemes [
-   financing-scheme -> distribute financing-scheme
-  ]
-  ;user-message "Data set is distributed."
+  ; export-world
+
+end ; distribute-to-stakeholders
+
+;Sets up the whole simulation
+to spawn
+  ;Reset every list and individual variables
+  clear-all
+  reset-ticks
+  reset-variables
+
+  ;Check if total of the weights is 100
+  if total != 100
+  [error "Total of weights should be exactly 100."]
+
+  if total-players = 0
+  [error "There are no players."]
+
+  ;Spawn agents
+  let agents ["blgu" "mplgu" "academe" "bd" "business" "nga"]
+  let colors [blue green yellow red white magenta]
+  (foreach agents colors [
+    [agent shade] -> spawn-agent agent shade
+  ])
+
+  get-data-from-files
+
+  distribute-to-stakeholders
 
   set-current-directory ".."
 end
@@ -273,48 +742,81 @@ to-report get-total-rank [agentset]
     run (word "set totals fput list \"" suffix "\" " summ " totals")
   ]
 
-  ;set totals sort-by [ [a b] -> last a < last b ] totals
   report totals
 end
 
-;This ranks a scheme for a particular year
+;This ranks a scheme for a particular simulation run
 to go
   let current ""
 
-  ;Score schemes for each financing scheme
-  let financing-schemes ["public-funds" "local-bonds" "national-funds" "credit-windows" "grants" "private-sector"]
-  foreach financing-schemes
-  [
-    financing-scheme -> set current financing-scheme
-    ask blgu-players[ score-scheme current who ]
-    ask mplgu-players[ score-scheme current who]
-    ask bd-players[ score-scheme current who ]
-    ask academe-players[ score-scheme current who ]
-    ask business-players[ score-scheme current who ]
-    ask nga-players[ score-scheme current who ]
+  if ticks = 0 [
+    let actor-types ["blgu-" "mplgu-" "bd-" "academe-" "business-" "nga-"]
+    let fund-sources ["pf" "lb" "nf" "cw" "g" "ps"]
+    foreach actor-types [actor-type ->
+      foreach fund-sources [fund-source ->
+        run (word "set acc-w-" actor-type fund-source " map [ i -> i * accessibility-w ] acc-w-" actor-type fund-source)
+        run (word "set suff-w-" actor-type fund-source " map [ i -> i * sufficiency-w ] suff-w-" actor-type fund-source)
+        run (word "set adop-w-" actor-type fund-source " map [ i -> i * adoption-w ] adop-w-" actor-type fund-source)
+        run (word "set sus-w-" actor-type fund-source " map [ i -> i * sustainability-w ] sus-w-" actor-type fund-source)
+      ]
+    ]
   ]
 
-  ;Rank all of the financing schemes
-  ask blgu-players[ rank who ]
-  ask mplgu-players[ rank who ]
-  ask bd-players[ rank who ]
-  ask academe-players[ rank who ]
-  ask business-players[ rank who ]
-  ask nga-players[ rank who ]
-
-  let players ["blgu-players" "mplgu-players" "bd-players" "academe-players" "business-players" "nga-players" "turtles"]
-  let ranks []
-  foreach players
-  [
-    player -> set ranks get-total-rank player
+  ask blgu-players [
+    set pf one-of sus-w-blgu-pf + one-of acc-w-blgu-pf + one-of suff-w-blgu-pf + one-of adop-w-blgu-pf
+    set lb one-of sus-w-blgu-lb + one-of acc-w-blgu-lb + one-of suff-w-blgu-lb + one-of adop-w-blgu-lb
+    set nf one-of sus-w-blgu-nf + one-of acc-w-blgu-nf + one-of suff-w-blgu-nf + one-of adop-w-blgu-nf
+    set cw one-of sus-w-blgu-cw + one-of acc-w-blgu-cw + one-of suff-w-blgu-cw + one-of adop-w-blgu-cw
+    set g one-of sus-w-blgu-g + one-of acc-w-blgu-g + one-of suff-w-blgu-g + one-of adop-w-blgu-g
+    set ps one-of sus-w-blgu-ps + one-of acc-w-blgu-ps + one-of suff-w-blgu-ps + one-of adop-w-blgu-ps
   ]
 
+  ask mplgu-players [
+    set pf one-of sus-w-mplgu-pf + one-of acc-w-mplgu-pf + one-of suff-w-mplgu-pf + one-of adop-w-mplgu-pf
+    set lb one-of sus-w-mplgu-lb + one-of acc-w-mplgu-lb + one-of suff-w-mplgu-lb + one-of adop-w-mplgu-lb
+    set nf one-of sus-w-mplgu-nf + one-of acc-w-mplgu-nf + one-of suff-w-mplgu-nf + one-of adop-w-mplgu-nf
+    set cw one-of sus-w-mplgu-cw + one-of acc-w-mplgu-cw + one-of suff-w-mplgu-cw + one-of adop-w-mplgu-cw
+    set g one-of sus-w-mplgu-g + one-of acc-w-mplgu-g + one-of suff-w-mplgu-g + one-of adop-w-mplgu-g
+    set ps one-of sus-w-mplgu-ps + one-of acc-w-mplgu-ps + one-of suff-w-mplgu-ps + one-of adop-w-mplgu-ps
+  ]
+
+  ask bd-players [
+    set pf one-of sus-w-bd-pf + one-of acc-w-bd-pf + one-of suff-w-bd-pf + one-of adop-w-bd-pf
+    set lb one-of sus-w-bd-lb + one-of acc-w-bd-lb + one-of suff-w-bd-lb + one-of adop-w-bd-lb
+    set nf one-of sus-w-bd-nf + one-of acc-w-bd-nf + one-of suff-w-bd-nf + one-of adop-w-bd-nf
+    set cw one-of sus-w-bd-cw + one-of acc-w-bd-cw + one-of suff-w-bd-cw + one-of adop-w-bd-cw
+    set g one-of sus-w-bd-g + one-of acc-w-bd-g + one-of suff-w-bd-g + one-of adop-w-bd-g
+    set ps one-of sus-w-bd-ps + one-of acc-w-bd-ps + one-of suff-w-bd-ps + one-of adop-w-bd-ps
+  ]
+
+  ask academe-players [
+    set pf one-of sus-w-academe-pf + one-of acc-w-academe-pf + one-of suff-w-academe-pf + one-of adop-w-academe-pf
+    set lb one-of sus-w-academe-lb + one-of acc-w-academe-lb + one-of suff-w-academe-lb + one-of adop-w-academe-lb
+    set nf one-of sus-w-academe-nf + one-of acc-w-academe-nf + one-of suff-w-academe-nf + one-of adop-w-academe-nf
+    set cw one-of sus-w-academe-cw + one-of acc-w-academe-cw + one-of suff-w-academe-cw + one-of adop-w-academe-cw
+    set g one-of sus-w-academe-g + one-of acc-w-academe-g + one-of suff-w-academe-g + one-of adop-w-academe-g
+    set ps one-of sus-w-academe-ps + one-of acc-w-academe-ps + one-of suff-w-academe-ps + one-of adop-w-academe-ps
+  ]
+
+  ask business-players [
+    set pf one-of sus-w-business-pf + one-of acc-w-business-pf + one-of suff-w-business-pf + one-of adop-w-business-pf
+    set lb one-of sus-w-business-lb + one-of acc-w-business-lb + one-of suff-w-business-lb + one-of adop-w-business-lb
+    set nf one-of sus-w-business-nf + one-of acc-w-business-nf + one-of suff-w-business-nf + one-of adop-w-business-nf
+    set cw one-of sus-w-business-cw + one-of acc-w-business-cw + one-of suff-w-business-cw + one-of adop-w-business-cw
+    set g one-of sus-w-business-g + one-of acc-w-business-g + one-of suff-w-business-g + one-of adop-w-business-g
+    set ps one-of sus-w-business-ps + one-of acc-w-business-ps + one-of suff-w-business-ps + one-of adop-w-business-ps
+  ]
+
+  ask nga-players [
+    set pf one-of sus-w-nga-pf + one-of acc-w-nga-pf + one-of suff-w-nga-pf + one-of adop-w-nga-pf
+    set lb one-of sus-w-nga-lb + one-of acc-w-nga-lb + one-of suff-w-nga-lb + one-of adop-w-nga-lb
+    set nf one-of sus-w-nga-nf + one-of acc-w-nga-nf + one-of suff-w-nga-nf + one-of adop-w-nga-nf
+    set cw one-of sus-w-nga-cw + one-of acc-w-nga-cw + one-of suff-w-nga-cw + one-of adop-w-nga-cw
+    set g one-of sus-w-nga-g + one-of acc-w-nga-g + one-of suff-w-nga-g + one-of adop-w-nga-g
+    set ps one-of sus-w-nga-ps + one-of acc-w-nga-ps + one-of suff-w-nga-ps + one-of adop-w-nga-ps
+  ]
   clear-all-plots
   tick
-end
-
-to go-25
-
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
@@ -350,7 +852,7 @@ INPUTBOX
 321
 106
 sustainability-w
-25.0
+40.0
 1
 0
 Number
@@ -361,7 +863,7 @@ INPUTBOX
 80
 106
 accessibility-w
-25.0
+10.0
 1
 0
 Number
@@ -372,7 +874,7 @@ INPUTBOX
 151
 106
 adoption-w
-25.0
+20.0
 1
 0
 Number
@@ -383,7 +885,7 @@ INPUTBOX
 229
 106
 sufficiency-w
-25.0
+30.0
 1
 0
 Number
@@ -404,7 +906,7 @@ INPUTBOX
 53
 214
 blgu
-7.0
+1.0
 1
 0
 Number
@@ -415,7 +917,7 @@ INPUTBOX
 106
 214
 mplgu
-10.0
+6.0
 1
 0
 Number
@@ -426,7 +928,7 @@ INPUTBOX
 157
 214
 bd
-5.0
+2.0
 1
 0
 Number
@@ -448,7 +950,7 @@ INPUTBOX
 286
 214
 business
-0.0
+3.0
 1
 0
 Number
@@ -459,7 +961,7 @@ INPUTBOX
 339
 214
 nga
-0.0
+2.0
 1
 0
 Number
@@ -532,7 +1034,7 @@ CHOOSER
 population
 population
 "magsingal" "dinapigue" "masinloc" "nasugbu" "jomalig" "quezon" "gasan" "mansalay" "jose-panganiban" "mercedes" "claveria" "anini-y" "carles" "toboso" "daanbantayan" "bien-unido" "pagsanghan" "arteche" "macarthur" "baliguian" "dipolog" "rtlim" "maasim" "socorro" "lchi" "lcli" "hchi" "hcli" "blgf-type1" "blgf-type2" "blgf-type3" "blgf-type4"
-0
+17
 
 CHOOSER
 292
@@ -542,7 +1044,7 @@ CHOOSER
 scenario
 scenario
 "bau" "fish-catch" "fisher-revenue" "both"
-2
+0
 
 BUTTON
 4
