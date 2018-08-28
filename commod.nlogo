@@ -65,6 +65,11 @@ globals [
   adop-w-blgu-g adop-w-mplgu-g adop-w-bd-g adop-w-academe-g adop-w-business-g adop-w-nga-g
   adop-w-blgu-ps adop-w-mplgu-ps adop-w-bd-ps adop-w-academe-ps adop-w-business-ps adop-w-nga-ps
 
+  ;Stores the confidence levels of the local government unit
+  research-fish-catch planning-fish-catch training-fish-catch enforcement-fish-catch
+  research-fisher-revenue planning-fisher-revenue training-fisher-revenue enforcement-fisher-revenue
+  research-schemes planning-schemes training-schemes enforcement-schemes
+
   lcli lchi hcli hchi type1 type2 type3 type4
 
   totals summ
@@ -73,10 +78,10 @@ globals [
 to reset-variables
   set actors []
 
-  set lcli ["masinloc" "nasugbu" "dinapigue" "anini-y" "macarthur" "pagsanghan"]
-  set lchi ["claveria" "baliguian" "socorro" "bien-unido" "carles"]
-  set hcli ["magsingal" "gasan" "jose-panganiban" "mansalay" "maasim" "toboso"]
-  set hchi ["jomalig" "quezon" "dipolog" "rtlim" "arteche" "daanbantayan" "mercedes"]
+  set lcli ["masinloc" "anini-y" "macarthur" "pagsanghan"]
+  set lchi ["socorro" "bien-unido" "carles"]
+  set hcli ["magsingal" "jose-panganiban" "mansalay" "maasim"]
+  set hchi ["dipolog" "rtlim" "arteche" "mercedes"]
 
   set public-funds []
   set local-bonds []
@@ -210,6 +215,7 @@ to get-data-from-files
 
     ; Get stakeholders list
     set filename (word town "-actors")
+    print filename
     if-else not file-exists? filename
     [error (word "Data set file named " filename " not found.") ]
     [
@@ -246,6 +252,8 @@ to get-data-from-files
     ]
 
   ] ;for-each population-list
+
+  set-current-directory ".."
 end ; get-data-from-files
 
 to distribute-to-stakeholders
@@ -661,8 +669,6 @@ to spawn
   get-data-from-files
 
   distribute-to-stakeholders
-
-  set-current-directory ".."
 end
 
 ;Procedure for an agent to rank the financing schemes
@@ -1033,8 +1039,8 @@ CHOOSER
 298
 population
 population
-"magsingal" "dinapigue" "masinloc" "nasugbu" "jomalig" "quezon" "gasan" "mansalay" "jose-panganiban" "mercedes" "claveria" "anini-y" "carles" "toboso" "daanbantayan" "bien-unido" "pagsanghan" "arteche" "macarthur" "baliguian" "dipolog" "rtlim" "maasim" "socorro" "lchi" "lcli" "hchi" "hcli" "blgf-type1" "blgf-type2" "blgf-type3" "blgf-type4"
-17
+"anini-y" "arteche" "bien-unido" "carles" "dipolog" "jose-panganiban" "maasim" "macarthur" "magsingal" "mansalay" "masinloc" "mercedes" "pagsanghan" "rtlim" "socorro" "lchi" "lcli" "hchi" "hcli" "blgf-type1" "blgf-type2" "blgf-type3" "blgf-type4"
+0
 
 CHOOSER
 292
