@@ -797,58 +797,115 @@ to go
     ]
   ]
 
+  let multiplier 0
+  let preference ["public-funds" "national-funds" "grants" "private-sector" "credit-windows" "local-bonds"]
+
+  (cf:ifelse
+    scenario = "bau" [set multiplier 1]
+    scenario = "fish-catch"[
+      set multiplier (research-fish-catch + planning-fish-catch + training-fish-catch + enforcement-fish-catch) / 400
+      set preference remove-duplicates (sentence research-schemes planning-schemes training-schemes enforcement-schemes)
+    ]
+    scenario = "fisher-revenue"[
+      set multiplier (research-fisher-revenue + planning-fisher-revenue + training-fisher-revenue + enforcement-fisher-revenue) / 400
+      set preference remove-duplicates (sentence research-schemes planning-schemes training-schemes enforcement-schemes)
+    ]
+    scenario = "both"[
+      set multiplier
+      (research-fish-catch + planning-fish-catch + training-fish-catch + enforcement-fish-catch +
+        research-fisher-revenue + planning-fisher-revenue + training-fisher-revenue + enforcement-fisher-revenue) / 800
+      set preference remove-duplicates (sentence research-schemes planning-schemes training-schemes enforcement-schemes)
+    ]
+    [error "Scenario not recognized."])
+
   ask blgu-players [
-    set pf one-of sus-w-blgu-pf + one-of acc-w-blgu-pf + one-of suff-w-blgu-pf + one-of adop-w-blgu-pf
-    set lb one-of sus-w-blgu-lb + one-of acc-w-blgu-lb + one-of suff-w-blgu-lb + one-of adop-w-blgu-lb
-    set nf one-of sus-w-blgu-nf + one-of acc-w-blgu-nf + one-of suff-w-blgu-nf + one-of adop-w-blgu-nf
-    set cw one-of sus-w-blgu-cw + one-of acc-w-blgu-cw + one-of suff-w-blgu-cw + one-of adop-w-blgu-cw
-    set g one-of sus-w-blgu-g + one-of acc-w-blgu-g + one-of suff-w-blgu-g + one-of adop-w-blgu-g
-    set ps one-of sus-w-blgu-ps + one-of acc-w-blgu-ps + one-of suff-w-blgu-ps + one-of adop-w-blgu-ps
+    if member? "public-funds" preference
+    [set pf multiplier * (one-of sus-w-blgu-pf + one-of acc-w-blgu-pf + one-of suff-w-blgu-pf + one-of adop-w-blgu-pf)]
+    if member? "local-bonds" preference
+    [set lb multiplier * (one-of sus-w-blgu-lb + one-of acc-w-blgu-lb + one-of suff-w-blgu-lb + one-of adop-w-blgu-lb)]
+    if member? "national-funds" preference
+    [set nf multiplier * (one-of sus-w-blgu-nf + one-of acc-w-blgu-nf + one-of suff-w-blgu-nf + one-of adop-w-blgu-nf)]
+    if member? "credit-windows" preference
+    [set cw multiplier * (one-of sus-w-blgu-cw + one-of acc-w-blgu-cw + one-of suff-w-blgu-cw + one-of adop-w-blgu-cw)]
+    if member? "grants" preference
+    [set g multiplier * (one-of sus-w-blgu-g + one-of acc-w-blgu-g + one-of suff-w-blgu-g + one-of adop-w-blgu-g)]
+    if member? "private-sector" preference
+    [set ps multiplier * (one-of sus-w-blgu-ps + one-of acc-w-blgu-ps + one-of suff-w-blgu-ps + one-of adop-w-blgu-ps)]
   ]
 
   ask mplgu-players [
-    set pf one-of sus-w-mplgu-pf + one-of acc-w-mplgu-pf + one-of suff-w-mplgu-pf + one-of adop-w-mplgu-pf
-    set lb one-of sus-w-mplgu-lb + one-of acc-w-mplgu-lb + one-of suff-w-mplgu-lb + one-of adop-w-mplgu-lb
-    set nf one-of sus-w-mplgu-nf + one-of acc-w-mplgu-nf + one-of suff-w-mplgu-nf + one-of adop-w-mplgu-nf
-    set cw one-of sus-w-mplgu-cw + one-of acc-w-mplgu-cw + one-of suff-w-mplgu-cw + one-of adop-w-mplgu-cw
-    set g one-of sus-w-mplgu-g + one-of acc-w-mplgu-g + one-of suff-w-mplgu-g + one-of adop-w-mplgu-g
-    set ps one-of sus-w-mplgu-ps + one-of acc-w-mplgu-ps + one-of suff-w-mplgu-ps + one-of adop-w-mplgu-ps
+    if member? "public-funds" preference
+    [set pf multiplier * (one-of sus-w-mplgu-pf + one-of acc-w-mplgu-pf + one-of suff-w-mplgu-pf + one-of adop-w-mplgu-pf)]
+    if member? "local-bonds" preference
+    [set lb multiplier * (one-of sus-w-mplgu-lb + one-of acc-w-mplgu-lb + one-of suff-w-mplgu-lb + one-of adop-w-mplgu-lb)]
+    if member? "national-funds" preference
+    [set nf multiplier * (one-of sus-w-mplgu-nf + one-of acc-w-mplgu-nf + one-of suff-w-mplgu-nf + one-of adop-w-mplgu-nf)]
+    if member? "credit-windows" preference
+    [set cw multiplier * (one-of sus-w-mplgu-cw + one-of acc-w-mplgu-cw + one-of suff-w-mplgu-cw + one-of adop-w-mplgu-cw)]
+    if member? "grants" preference
+    [set g multiplier * (one-of sus-w-mplgu-g + one-of acc-w-mplgu-g + one-of suff-w-mplgu-g + one-of adop-w-mplgu-g)]
+    if member? "private-sector" preference
+    [set ps multiplier * (one-of sus-w-mplgu-ps + one-of acc-w-mplgu-ps + one-of suff-w-mplgu-ps + one-of adop-w-mplgu-ps)]
   ]
 
   ask bd-players [
-    set pf one-of sus-w-bd-pf + one-of acc-w-bd-pf + one-of suff-w-bd-pf + one-of adop-w-bd-pf
-    set lb one-of sus-w-bd-lb + one-of acc-w-bd-lb + one-of suff-w-bd-lb + one-of adop-w-bd-lb
-    set nf one-of sus-w-bd-nf + one-of acc-w-bd-nf + one-of suff-w-bd-nf + one-of adop-w-bd-nf
-    set cw one-of sus-w-bd-cw + one-of acc-w-bd-cw + one-of suff-w-bd-cw + one-of adop-w-bd-cw
-    set g one-of sus-w-bd-g + one-of acc-w-bd-g + one-of suff-w-bd-g + one-of adop-w-bd-g
-    set ps one-of sus-w-bd-ps + one-of acc-w-bd-ps + one-of suff-w-bd-ps + one-of adop-w-bd-ps
+    if member? "public-funds" preference
+    [set pf multiplier * (one-of sus-w-bd-pf + one-of acc-w-bd-pf + one-of suff-w-bd-pf + one-of adop-w-bd-pf)]
+    if member? "local-bonds" preference
+    [set lb multiplier * (one-of sus-w-bd-lb + one-of acc-w-bd-lb + one-of suff-w-bd-lb + one-of adop-w-bd-lb)]
+    if member? "national-funds" preference
+    [set nf multiplier * (one-of sus-w-bd-nf + one-of acc-w-bd-nf + one-of suff-w-bd-nf + one-of adop-w-bd-nf)]
+    if member? "credit-windows" preference
+    [set cw multiplier * (one-of sus-w-bd-cw + one-of acc-w-bd-cw + one-of suff-w-bd-cw + one-of adop-w-bd-cw)]
+    if member? "grants" preference
+    [set g multiplier * (one-of sus-w-bd-g + one-of acc-w-bd-g + one-of suff-w-bd-g + one-of adop-w-bd-g)]
+    if member? "private-sector" preference
+    [set ps multiplier * (one-of sus-w-bd-ps + one-of acc-w-bd-ps + one-of suff-w-bd-ps + one-of adop-w-bd-ps)]
   ]
 
   ask academe-players [
-    set pf one-of sus-w-academe-pf + one-of acc-w-academe-pf + one-of suff-w-academe-pf + one-of adop-w-academe-pf
-    set lb one-of sus-w-academe-lb + one-of acc-w-academe-lb + one-of suff-w-academe-lb + one-of adop-w-academe-lb
-    set nf one-of sus-w-academe-nf + one-of acc-w-academe-nf + one-of suff-w-academe-nf + one-of adop-w-academe-nf
-    set cw one-of sus-w-academe-cw + one-of acc-w-academe-cw + one-of suff-w-academe-cw + one-of adop-w-academe-cw
-    set g one-of sus-w-academe-g + one-of acc-w-academe-g + one-of suff-w-academe-g + one-of adop-w-academe-g
-    set ps one-of sus-w-academe-ps + one-of acc-w-academe-ps + one-of suff-w-academe-ps + one-of adop-w-academe-ps
+    if member? "public-funds" preference
+    [set pf multiplier * (one-of sus-w-academe-pf + one-of acc-w-academe-pf + one-of suff-w-academe-pf + one-of adop-w-academe-pf)]
+    if member? "local-bonds" preference
+    [set lb multiplier * (one-of sus-w-academe-lb + one-of acc-w-academe-lb + one-of suff-w-academe-lb + one-of adop-w-academe-lb)]
+    if member? "national-funds" preference
+    [set nf multiplier * (one-of sus-w-academe-nf + one-of acc-w-academe-nf + one-of suff-w-academe-nf + one-of adop-w-academe-nf)]
+    if member? "credit-windows" preference
+    [set cw multiplier * (one-of sus-w-academe-cw + one-of acc-w-academe-cw + one-of suff-w-academe-cw + one-of adop-w-academe-cw)]
+    if member? "grants" preference
+    [set g multiplier * (one-of sus-w-academe-g + one-of acc-w-academe-g + one-of suff-w-academe-g + one-of adop-w-academe-g)]
+    if member? "private-sector" preference
+    [set ps multiplier * (one-of sus-w-academe-ps + one-of acc-w-academe-ps + one-of suff-w-academe-ps + one-of adop-w-academe-ps)]
   ]
 
   ask business-players [
-    set pf one-of sus-w-business-pf + one-of acc-w-business-pf + one-of suff-w-business-pf + one-of adop-w-business-pf
-    set lb one-of sus-w-business-lb + one-of acc-w-business-lb + one-of suff-w-business-lb + one-of adop-w-business-lb
-    set nf one-of sus-w-business-nf + one-of acc-w-business-nf + one-of suff-w-business-nf + one-of adop-w-business-nf
-    set cw one-of sus-w-business-cw + one-of acc-w-business-cw + one-of suff-w-business-cw + one-of adop-w-business-cw
-    set g one-of sus-w-business-g + one-of acc-w-business-g + one-of suff-w-business-g + one-of adop-w-business-g
-    set ps one-of sus-w-business-ps + one-of acc-w-business-ps + one-of suff-w-business-ps + one-of adop-w-business-ps
+    if member? "public-funds" preference
+    [set pf multiplier * (one-of sus-w-business-pf + one-of acc-w-business-pf + one-of suff-w-business-pf + one-of adop-w-business-pf)]
+    if member? "local-bonds" preference
+    [set lb multiplier * (one-of sus-w-business-lb + one-of acc-w-business-lb + one-of suff-w-business-lb + one-of adop-w-business-lb)]
+    if member? "national-funds" preference
+    [set nf multiplier * (one-of sus-w-business-nf + one-of acc-w-business-nf + one-of suff-w-business-nf + one-of adop-w-business-nf)]
+    if member? "credit-windows" preference
+    [set cw multiplier * (one-of sus-w-business-cw + one-of acc-w-business-cw + one-of suff-w-business-cw + one-of adop-w-business-cw)]
+    if member? "grants" preference
+    [set g multiplier * (one-of sus-w-business-g + one-of acc-w-business-g + one-of suff-w-business-g + one-of adop-w-business-g)]
+    if member? "private-sector" preference
+    [set ps multiplier * (one-of sus-w-business-ps + one-of acc-w-business-ps + one-of suff-w-business-ps + one-of adop-w-business-ps)]
   ]
 
   ask nga-players [
-    set pf one-of sus-w-nga-pf + one-of acc-w-nga-pf + one-of suff-w-nga-pf + one-of adop-w-nga-pf
-    set lb one-of sus-w-nga-lb + one-of acc-w-nga-lb + one-of suff-w-nga-lb + one-of adop-w-nga-lb
-    set nf one-of sus-w-nga-nf + one-of acc-w-nga-nf + one-of suff-w-nga-nf + one-of adop-w-nga-nf
-    set cw one-of sus-w-nga-cw + one-of acc-w-nga-cw + one-of suff-w-nga-cw + one-of adop-w-nga-cw
-    set g one-of sus-w-nga-g + one-of acc-w-nga-g + one-of suff-w-nga-g + one-of adop-w-nga-g
-    set ps one-of sus-w-nga-ps + one-of acc-w-nga-ps + one-of suff-w-nga-ps + one-of adop-w-nga-ps
+    if member? "public-funds" preference
+    [set pf multiplier * (one-of sus-w-nga-pf + one-of acc-w-nga-pf + one-of suff-w-nga-pf + one-of adop-w-nga-pf)]
+    if member? "local-bonds" preference
+    [set lb multiplier * (one-of sus-w-nga-lb + one-of acc-w-nga-lb + one-of suff-w-nga-lb + one-of adop-w-nga-lb)]
+    if member? "national-funds" preference
+    [set nf multiplier * (one-of sus-w-nga-nf + one-of acc-w-nga-nf + one-of suff-w-nga-nf + one-of adop-w-nga-nf)]
+    if member? "credit-windows" preference
+    [set cw multiplier * (one-of sus-w-nga-cw + one-of acc-w-nga-cw + one-of suff-w-nga-cw + one-of adop-w-nga-cw)]
+    if member? "grants" preference
+    [set g multiplier * (one-of sus-w-nga-g + one-of acc-w-nga-g + one-of suff-w-nga-g + one-of adop-w-nga-g)]
+    if member? "private-sector" preference
+    [set ps multiplier * (one-of sus-w-nga-ps + one-of acc-w-nga-ps + one-of suff-w-nga-ps + one-of adop-w-nga-ps)]
   ]
   clear-all-plots
   tick
@@ -996,7 +1053,7 @@ INPUTBOX
 339
 214
 nga
-2.0
+0.0
 1
 0
 Number
