@@ -35,10 +35,8 @@ if criterion not in criteria:
 
 #File input
 space = " "
-if criterion != "baseline":
-    space = "_"
 fileDir = os.path.dirname(os.path.realpath('__file__'))
-fileName = "rpg_" + criterion + "_results/commod_crm"+ space + criterion + " " + lgu + "-" + scenario + "-spreadsheet.csv"
+fileName = "rpg_" + criterion + "_results/commod_crm_" + criterion + " " + lgu + "-" + scenario + "-spreadsheet.csv"
 
 #Initialization of list variables
 lines = []
