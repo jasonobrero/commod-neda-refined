@@ -2562,13 +2562,13 @@ NetLogo 6.0.4
       <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="15"/>
+      <value value="12"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="14"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="7"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
@@ -2644,13 +2644,13 @@ NetLogo 6.0.4
       <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="15"/>
+      <value value="12"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="14"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="7"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
@@ -2726,13 +2726,13 @@ NetLogo 6.0.4
       <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="15"/>
+      <value value="12"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="14"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="7"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
@@ -2808,13 +2808,13 @@ NetLogo 6.0.4
       <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="15"/>
+      <value value="12"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="14"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="7"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
@@ -2890,22 +2890,22 @@ NetLogo 6.0.4
       <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="9"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="20"/>
+      <value value="12"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="3"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
-      <value value="2"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="2"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -2972,22 +2972,22 @@ NetLogo 6.0.4
       <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="9"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="20"/>
+      <value value="12"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="3"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
-      <value value="2"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="2"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -3054,22 +3054,22 @@ NetLogo 6.0.4
       <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="9"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="20"/>
+      <value value="12"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="3"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
-      <value value="2"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="2"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -3136,22 +3136,22 @@ NetLogo 6.0.4
       <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="9"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="20"/>
+      <value value="12"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="3"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
-      <value value="2"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="2"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -4202,16 +4202,16 @@ NetLogo 6.0.4
       <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="15"/>
+      <value value="13"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="12"/>
+      <value value="5"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="3"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -4284,16 +4284,16 @@ NetLogo 6.0.4
       <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="15"/>
+      <value value="13"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="12"/>
+      <value value="5"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="3"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -4366,16 +4366,16 @@ NetLogo 6.0.4
       <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="15"/>
+      <value value="13"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="12"/>
+      <value value="5"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="3"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -4448,16 +4448,16 @@ NetLogo 6.0.4
       <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="15"/>
+      <value value="13"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="12"/>
+      <value value="5"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="3"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -4858,10 +4858,10 @@ NetLogo 6.0.4
       <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="4"/>
+      <value value="3"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="8"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
       <value value="5"/>
@@ -4873,7 +4873,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -4940,10 +4940,10 @@ NetLogo 6.0.4
       <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="4"/>
+      <value value="3"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="8"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
       <value value="5"/>
@@ -4955,7 +4955,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -5022,10 +5022,10 @@ NetLogo 6.0.4
       <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="4"/>
+      <value value="3"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="8"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
       <value value="5"/>
@@ -5037,7 +5037,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -5104,10 +5104,10 @@ NetLogo 6.0.4
       <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="4"/>
+      <value value="3"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="8"/>
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
       <value value="5"/>
@@ -5119,7 +5119,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
