@@ -2234,22 +2234,22 @@ NetLogo 6.0.4
       <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="4"/>
+      <value value="7"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="18"/>
+      <value value="7"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="5"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="7"/>
+      <value value="2"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -2316,22 +2316,22 @@ NetLogo 6.0.4
       <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="4"/>
+      <value value="7"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="18"/>
+      <value value="7"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="5"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="7"/>
+      <value value="2"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -2398,22 +2398,22 @@ NetLogo 6.0.4
       <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="4"/>
+      <value value="7"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="18"/>
+      <value value="7"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="5"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="7"/>
+      <value value="2"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
@@ -2480,22 +2480,22 @@ NetLogo 6.0.4
       <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="4"/>
+      <value value="7"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="mplgu">
-      <value value="18"/>
+      <value value="7"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="bd">
-      <value value="5"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="nga">
-      <value value="7"/>
+      <value value="2"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="sufficiency-w">
       <value value="35"/>
