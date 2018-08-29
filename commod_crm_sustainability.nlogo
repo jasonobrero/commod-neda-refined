@@ -3238,16 +3238,16 @@ NetLogo 6.0.4
       <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
       <value value="5"/>
     </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
       <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -3321,16 +3321,16 @@ NetLogo 6.0.4
       <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
       <value value="5"/>
     </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
       <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -3404,16 +3404,16 @@ NetLogo 6.0.4
       <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
       <value value="5"/>
     </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
       <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -3487,16 +3487,16 @@ NetLogo 6.0.4
       <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
       <value value="5"/>
     </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
       <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="4"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
