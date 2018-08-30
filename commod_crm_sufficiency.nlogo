@@ -1606,6 +1606,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="anini-y-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -1688,6 +1689,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="anini-y-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -1770,6 +1772,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="anini-y-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -1852,6 +1855,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="carles-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -1934,6 +1938,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="carles-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2016,6 +2021,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="carles-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2098,6 +2104,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="carles-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2180,6 +2187,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="jose-panganiban-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2262,6 +2270,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="jose-panganiban-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2344,6 +2353,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="jose-panganiban-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2426,6 +2436,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="jose-panganiban-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2508,6 +2519,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="maasim-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2590,6 +2602,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="maasim-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2672,6 +2685,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="maasim-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2754,6 +2768,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="maasim-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2836,6 +2851,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="mercedes-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -2918,6 +2934,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="mercedes-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3000,6 +3017,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="mercedes-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3082,6 +3100,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="mercedes-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3164,6 +3183,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="socorro-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3246,6 +3266,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="socorro-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3328,6 +3349,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="socorro-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3410,6 +3432,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="socorro-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3492,6 +3515,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="magsingal-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3574,6 +3598,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="magsingal-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3656,6 +3681,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="magsingal-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3738,6 +3764,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="magsingal-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3820,6 +3847,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="masinloc-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3902,6 +3930,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="masinloc-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -3984,6 +4013,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="masinloc-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4066,6 +4096,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="masinloc-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4148,6 +4179,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="pagsanghan-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4230,6 +4262,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="pagsanghan-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4312,6 +4345,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="pagsanghan-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4394,6 +4428,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="pagsanghan-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4476,6 +4511,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="arteche-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4558,6 +4594,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="arteche-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4640,6 +4677,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="arteche-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4722,6 +4760,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="arteche-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4804,6 +4843,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="macarthur-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4886,6 +4926,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="macarthur-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -4968,6 +5009,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="macarthur-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5050,6 +5092,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="macarthur-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5132,6 +5175,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="dipolog-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5214,6 +5258,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="dipolog-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5296,6 +5341,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="dipolog-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5378,6 +5424,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="dipolog-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5460,6 +5507,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="rtlim-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5542,6 +5590,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="rtlim-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5624,6 +5673,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="rtlim-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5706,6 +5756,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="rtlim-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5788,6 +5839,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="baliguian-bau" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5870,6 +5922,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="baliguian-fish-catch" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -5952,6 +6005,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="baliguian-fisher-revenue" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -6034,6 +6088,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
   <experiment name="baliguian-both" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
@@ -6116,6 +6171,7 @@ NetLogo 6.0.4
     </enumeratedValueSet>
     <enumeratedValueSet variable="sustainability-w">
       <value value="30"/>
+    </enumeratedValueSet>
   </experiment>
 </experiments>
 @#$#@#$#@
