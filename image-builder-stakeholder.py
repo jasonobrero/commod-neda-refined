@@ -135,12 +135,12 @@ ps = [blgu[4::6], mplgu[4::6], bd[4::6], academe[4::6], business[4::6], nga[4::6
 lb = [blgu[5::6], mplgu[5::6], bd[5::6], academe[5::6], business[5::6], nga[5::6]]
 
 #Get the average of all of the simulation runs
-pf = [round(sum(x) / float(len(x)), 2) for x in pf]
-nf = [round(sum(x) / float(len(x)), 2) for x in nf]
-g = [round(sum(x) / float(len(x)), 2) for x in g]
-cw = [round(sum(x) / float(len(x)), 2) for x in cw]
-ps = [round(sum(x) / float(len(x)), 2) for x in ps]
-lb = [round(sum(x) / float(len(x)), 2) for x in lb]
+pf = [round(sum(x) / float(len(x) * 100), 2) for x in pf]
+nf = [round(sum(x) / float(len(x) * 100), 2) for x in nf]
+g = [round(sum(x) / float(len(x) * 100), 2) for x in g]
+cw = [round(sum(x) / float(len(x) * 100), 2) for x in cw]
+ps = [round(sum(x) / float(len(x) * 100), 2) for x in ps]
+lb = [round(sum(x) / float(len(x) * 100), 2) for x in lb]
 
 agents = ["Barangay LGU", "Municipal and Provincial LGU", "Bantay Dagat", "Academe", "Business Sector", "Non-Government Agencies"]
 
