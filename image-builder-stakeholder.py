@@ -234,7 +234,7 @@ data = [trace_pf, trace_nf, trace_g, trace_cw, trace_ps, trace_lb]
 layout = dict(
     title = title,
     yaxis = dict(title = "Average Score (all replicates)"),
-    xaxis = dict(title = "Financing Scheme")
+    xaxis = dict(title = "Agent Group")
 )
 
 if str.upper(download) == 'Y':
