@@ -1125,8 +1125,8 @@ CHOOSER
 298
 population
 population
-"anini-y" "arteche" "bien-unido" "carles" "dipolog" "jose-panganiban" "maasim" "macarthur" "magsingal" "mansalay" "masinloc" "mercedes" "pagsanghan" "rtlim" "socorro" "lchi" "lcli" "hchi" "hcli" "blgf-type1" "blgf-type2" "blgf-type3" "blgf-type4"
-0
+"masinloc" "dinapigue" "anini-y" "macarthur" "pagsanghan" "claveria" "baliguian" "socorro" "bien-unido" "carles" "magsingal" "gasan" "jose-panganiban" "mansalay" "maasim" "toboso" "jomalig" "quezon" "dipolog" "rtlim" "arteche" "daanbantayan" "mercedes"
+2
 
 CHOOSER
 292
@@ -1520,7 +1520,7 @@ false
 Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 @#$#@#$#@
-NetLogo 6.0.3
+NetLogo 6.0.4
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
