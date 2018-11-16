@@ -1575,7 +1575,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -1658,7 +1658,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -1741,7 +1741,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -1824,7 +1824,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -1907,7 +1907,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -1990,7 +1990,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2073,7 +2073,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2156,7 +2156,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2239,7 +2239,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2322,7 +2322,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2405,7 +2405,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2488,7 +2488,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2571,7 +2571,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2654,7 +2654,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2737,7 +2737,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2820,7 +2820,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2903,7 +2903,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -2986,7 +2986,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -3069,7 +3069,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -3152,7 +3152,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;magsingalquot;"/>
+      <value value="&quot;magsingal&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -3235,7 +3235,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -3318,7 +3318,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -3401,7 +3401,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -3484,7 +3484,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -3567,7 +3567,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -3650,7 +3650,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -3733,7 +3733,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -3816,7 +3816,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -3899,7 +3899,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -3982,7 +3982,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4065,7 +4065,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4148,7 +4148,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4231,7 +4231,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4314,7 +4314,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4397,7 +4397,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4480,7 +4480,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4563,7 +4563,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4646,7 +4646,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4729,7 +4729,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4812,7 +4812,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dinapiguequot;"/>
+      <value value="&quot;dinapigue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="16"/>
@@ -4895,7 +4895,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -4978,7 +4978,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5061,7 +5061,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5144,7 +5144,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5227,7 +5227,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5310,7 +5310,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5393,7 +5393,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5476,7 +5476,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5559,7 +5559,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5642,7 +5642,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5725,7 +5725,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5808,7 +5808,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5891,7 +5891,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -5974,7 +5974,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -6057,7 +6057,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -6140,7 +6140,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -6223,7 +6223,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -6306,7 +6306,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -6389,7 +6389,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -6472,7 +6472,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;masinlocquot;"/>
+      <value value="&quot;masinloc&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -6555,7 +6555,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -6638,7 +6638,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -6721,7 +6721,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -6804,7 +6804,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -6887,7 +6887,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -6970,7 +6970,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7053,7 +7053,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7136,7 +7136,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7219,7 +7219,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7302,7 +7302,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7385,7 +7385,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7468,7 +7468,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7551,7 +7551,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7634,7 +7634,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7717,7 +7717,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7800,7 +7800,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7883,7 +7883,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -7966,7 +7966,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -8049,7 +8049,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -8132,7 +8132,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbuquot;"/>
+      <value value="&quot;nasugbu&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -8215,7 +8215,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -8298,7 +8298,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -8381,7 +8381,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -8464,7 +8464,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -8547,7 +8547,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -8630,7 +8630,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -8713,7 +8713,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -8796,7 +8796,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -8879,7 +8879,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -8962,7 +8962,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9045,7 +9045,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9128,7 +9128,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9211,7 +9211,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9294,7 +9294,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9377,7 +9377,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9460,7 +9460,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9543,7 +9543,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9626,7 +9626,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9709,7 +9709,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9792,7 +9792,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jomaligquot;"/>
+      <value value="&quot;jomalig&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="9"/>
@@ -9875,7 +9875,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -9958,7 +9958,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10041,7 +10041,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10124,7 +10124,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10207,7 +10207,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10290,7 +10290,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10373,7 +10373,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10456,7 +10456,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10539,7 +10539,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10622,7 +10622,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10705,7 +10705,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10788,7 +10788,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10871,7 +10871,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -10954,7 +10954,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -11037,7 +11037,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -11120,7 +11120,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -11203,7 +11203,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -11286,7 +11286,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -11369,7 +11369,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -11452,7 +11452,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;quezonquot;"/>
+      <value value="&quot;quezon&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -11535,7 +11535,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -11618,7 +11618,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -11701,7 +11701,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -11784,7 +11784,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -11867,7 +11867,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -11950,7 +11950,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12033,7 +12033,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12116,7 +12116,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12199,7 +12199,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12282,7 +12282,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12365,7 +12365,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12448,7 +12448,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12531,7 +12531,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12614,7 +12614,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12697,7 +12697,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12780,7 +12780,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12863,7 +12863,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -12946,7 +12946,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -13029,7 +13029,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -13112,7 +13112,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;gasanquot;"/>
+      <value value="&quot;gasan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="18"/>
@@ -13195,7 +13195,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -13278,7 +13278,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -13361,7 +13361,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -13444,7 +13444,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -13527,7 +13527,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -13610,7 +13610,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -13693,7 +13693,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -13776,7 +13776,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -13859,7 +13859,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -13942,7 +13942,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14025,7 +14025,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14108,7 +14108,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14191,7 +14191,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14274,7 +14274,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14357,7 +14357,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14440,7 +14440,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14523,7 +14523,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14606,7 +14606,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14689,7 +14689,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14772,7 +14772,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mansalayquot;"/>
+      <value value="&quot;mansalay&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -14805,7 +14805,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-bau-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-bau-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -14855,7 +14855,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -14888,7 +14888,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-bau-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-bau-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -14938,7 +14938,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -14971,7 +14971,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-bau-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-bau-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15021,7 +15021,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15054,7 +15054,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-bau-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-bau-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15104,7 +15104,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15137,7 +15137,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-bau-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-bau-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15187,7 +15187,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15220,7 +15220,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15270,7 +15270,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15303,7 +15303,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15353,7 +15353,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15386,7 +15386,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15436,7 +15436,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15469,7 +15469,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15519,7 +15519,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15552,7 +15552,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15602,7 +15602,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15635,7 +15635,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15685,7 +15685,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15718,7 +15718,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15768,7 +15768,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15801,7 +15801,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15851,7 +15851,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15884,7 +15884,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15934,7 +15934,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -15967,7 +15967,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -16017,7 +16017,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -16050,7 +16050,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-both-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-both-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -16100,7 +16100,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -16133,7 +16133,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-both-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-both-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -16183,7 +16183,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -16216,7 +16216,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-both-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-both-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -16266,7 +16266,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -16299,7 +16299,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-both-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-both-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -16349,7 +16349,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -16382,7 +16382,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose_panganiban-both-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-both-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -16432,7 +16432,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;jose_panganibanquot;"/>
+      <value value="&quot;jose-panganiban&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="7"/>
@@ -16515,7 +16515,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -16598,7 +16598,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -16681,7 +16681,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -16764,7 +16764,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -16847,7 +16847,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -16930,7 +16930,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17013,7 +17013,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17096,7 +17096,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17179,7 +17179,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17262,7 +17262,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17345,7 +17345,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17428,7 +17428,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17511,7 +17511,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17594,7 +17594,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17677,7 +17677,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17760,7 +17760,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17843,7 +17843,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -17926,7 +17926,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -18009,7 +18009,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -18092,7 +18092,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;mercedesquot;"/>
+      <value value="&quot;mercedes&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -18175,7 +18175,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -18258,7 +18258,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -18341,7 +18341,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -18424,7 +18424,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -18507,7 +18507,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -18590,7 +18590,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -18673,7 +18673,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -18756,7 +18756,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -18839,7 +18839,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -18922,7 +18922,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19005,7 +19005,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19088,7 +19088,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19171,7 +19171,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19254,7 +19254,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19337,7 +19337,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19420,7 +19420,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19503,7 +19503,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19586,7 +19586,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19669,7 +19669,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19752,7 +19752,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;claveriaquot;"/>
+      <value value="&quot;claveria&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -19785,7 +19785,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-bau-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-bau-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -19835,7 +19835,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -19868,7 +19868,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-bau-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-bau-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -19918,7 +19918,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -19951,7 +19951,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-bau-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-bau-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20001,7 +20001,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20034,7 +20034,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-bau-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-bau-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20084,7 +20084,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20117,7 +20117,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-bau-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-bau-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20167,7 +20167,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20200,7 +20200,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20250,7 +20250,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20283,7 +20283,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20333,7 +20333,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20366,7 +20366,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20416,7 +20416,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20449,7 +20449,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20499,7 +20499,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20532,7 +20532,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20582,7 +20582,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20615,7 +20615,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20665,7 +20665,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20698,7 +20698,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20748,7 +20748,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20781,7 +20781,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20831,7 +20831,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20864,7 +20864,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20914,7 +20914,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -20947,7 +20947,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20997,7 +20997,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -21030,7 +21030,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-both-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-both-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -21080,7 +21080,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -21113,7 +21113,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-both-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-both-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -21163,7 +21163,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -21196,7 +21196,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-both-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-both-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -21246,7 +21246,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -21279,7 +21279,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-both-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-both-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -21329,7 +21329,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -21362,7 +21362,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini_y-both-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-both-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -21412,7 +21412,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;anini_yquot;"/>
+      <value value="&quot;anini-y&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -21495,7 +21495,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -21578,7 +21578,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -21661,7 +21661,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -21744,7 +21744,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -21827,7 +21827,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -21910,7 +21910,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -21993,7 +21993,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22076,7 +22076,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22159,7 +22159,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22242,7 +22242,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22325,7 +22325,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22408,7 +22408,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22491,7 +22491,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22574,7 +22574,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22657,7 +22657,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22740,7 +22740,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22823,7 +22823,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22906,7 +22906,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -22989,7 +22989,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -23072,7 +23072,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;carlesquot;"/>
+      <value value="&quot;carles&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="8"/>
@@ -23155,7 +23155,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23238,7 +23238,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23321,7 +23321,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23404,7 +23404,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23487,7 +23487,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23570,7 +23570,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23653,7 +23653,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23736,7 +23736,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23819,7 +23819,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23902,7 +23902,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -23985,7 +23985,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24068,7 +24068,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24151,7 +24151,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24234,7 +24234,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24317,7 +24317,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24400,7 +24400,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24483,7 +24483,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24566,7 +24566,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24649,7 +24649,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24732,7 +24732,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;tobosoquot;"/>
+      <value value="&quot;toboso&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -24815,7 +24815,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -24898,7 +24898,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -24981,7 +24981,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25064,7 +25064,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25147,7 +25147,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25230,7 +25230,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25313,7 +25313,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25396,7 +25396,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25479,7 +25479,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25562,7 +25562,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25645,7 +25645,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25728,7 +25728,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25811,7 +25811,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25894,7 +25894,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -25977,7 +25977,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -26060,7 +26060,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -26143,7 +26143,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -26226,7 +26226,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -26309,7 +26309,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -26392,7 +26392,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayanquot;"/>
+      <value value="&quot;daanbantayan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="4"/>
@@ -26425,7 +26425,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-bau-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-bau-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -26475,7 +26475,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -26508,7 +26508,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-bau-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-bau-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -26558,7 +26558,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -26591,7 +26591,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-bau-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-bau-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -26641,7 +26641,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -26674,7 +26674,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-bau-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-bau-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -26724,7 +26724,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -26757,7 +26757,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-bau-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-bau-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -26807,7 +26807,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -26840,7 +26840,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -26890,7 +26890,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -26923,7 +26923,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -26973,7 +26973,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27006,7 +27006,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27056,7 +27056,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27089,7 +27089,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27139,7 +27139,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27172,7 +27172,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27222,7 +27222,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27255,7 +27255,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27305,7 +27305,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27338,7 +27338,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27388,7 +27388,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27421,7 +27421,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27471,7 +27471,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27504,7 +27504,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27554,7 +27554,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27587,7 +27587,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27637,7 +27637,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27670,7 +27670,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-both-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-both-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27720,7 +27720,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27753,7 +27753,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-both-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-both-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27803,7 +27803,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27836,7 +27836,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-both-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-both-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27886,7 +27886,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -27919,7 +27919,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-both-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-both-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27969,7 +27969,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -28002,7 +28002,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien_unido-both-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-both-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -28052,7 +28052,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;bien_unidoquot;"/>
+      <value value="&quot;bien-unido&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="2"/>
@@ -28135,7 +28135,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28218,7 +28218,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28301,7 +28301,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28384,7 +28384,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28467,7 +28467,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28550,7 +28550,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28633,7 +28633,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28716,7 +28716,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28799,7 +28799,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28882,7 +28882,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -28965,7 +28965,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29048,7 +29048,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29131,7 +29131,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29214,7 +29214,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29297,7 +29297,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29380,7 +29380,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29463,7 +29463,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29546,7 +29546,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29629,7 +29629,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29712,7 +29712,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghanquot;"/>
+      <value value="&quot;pagsanghan&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="13"/>
@@ -29795,7 +29795,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -29878,7 +29878,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -29961,7 +29961,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30044,7 +30044,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30127,7 +30127,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30210,7 +30210,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30293,7 +30293,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30376,7 +30376,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30459,7 +30459,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30542,7 +30542,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30625,7 +30625,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30708,7 +30708,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30791,7 +30791,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30874,7 +30874,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -30957,7 +30957,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -31040,7 +31040,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -31123,7 +31123,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -31206,7 +31206,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -31289,7 +31289,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -31372,7 +31372,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;artechequot;"/>
+      <value value="&quot;arteche&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -31455,7 +31455,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -31538,7 +31538,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -31621,7 +31621,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -31704,7 +31704,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -31787,7 +31787,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -31870,7 +31870,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -31953,7 +31953,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32036,7 +32036,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32119,7 +32119,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32202,7 +32202,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32285,7 +32285,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32368,7 +32368,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32451,7 +32451,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32534,7 +32534,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32617,7 +32617,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32700,7 +32700,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32783,7 +32783,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32866,7 +32866,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -32949,7 +32949,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -33032,7 +33032,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;macarthurquot;"/>
+      <value value="&quot;macarthur&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="3"/>
@@ -33115,7 +33115,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33198,7 +33198,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33281,7 +33281,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33364,7 +33364,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33447,7 +33447,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33530,7 +33530,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33613,7 +33613,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33696,7 +33696,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33779,7 +33779,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33862,7 +33862,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -33945,7 +33945,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34028,7 +34028,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34111,7 +34111,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34194,7 +34194,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34277,7 +34277,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34360,7 +34360,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34443,7 +34443,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34526,7 +34526,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34609,7 +34609,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34692,7 +34692,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;baliguianquot;"/>
+      <value value="&quot;baliguian&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -34775,7 +34775,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -34858,7 +34858,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -34941,7 +34941,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35024,7 +35024,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35107,7 +35107,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35190,7 +35190,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35273,7 +35273,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35356,7 +35356,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35439,7 +35439,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35522,7 +35522,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35605,7 +35605,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35688,7 +35688,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35771,7 +35771,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35854,7 +35854,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -35937,7 +35937,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -36020,7 +36020,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -36103,7 +36103,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -36186,7 +36186,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -36269,7 +36269,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -36352,7 +36352,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;dipologquot;"/>
+      <value value="&quot;dipolog&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="1"/>
@@ -36435,7 +36435,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -36518,7 +36518,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -36601,7 +36601,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -36684,7 +36684,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -36767,7 +36767,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -36850,7 +36850,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -36933,7 +36933,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37016,7 +37016,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37099,7 +37099,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37182,7 +37182,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37265,7 +37265,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37348,7 +37348,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37431,7 +37431,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37514,7 +37514,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37597,7 +37597,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37680,7 +37680,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37763,7 +37763,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37846,7 +37846,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -37929,7 +37929,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -38012,7 +38012,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;rtlimquot;"/>
+      <value value="&quot;rtlim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="0"/>
@@ -38095,7 +38095,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38178,7 +38178,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38261,7 +38261,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38344,7 +38344,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38427,7 +38427,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38510,7 +38510,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38593,7 +38593,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38676,7 +38676,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38759,7 +38759,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38842,7 +38842,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -38925,7 +38925,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39008,7 +39008,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39091,7 +39091,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39174,7 +39174,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39257,7 +39257,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39340,7 +39340,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39423,7 +39423,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39506,7 +39506,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39589,7 +39589,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39672,7 +39672,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;maasimquot;"/>
+      <value value="&quot;maasim&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="12"/>
@@ -39755,7 +39755,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -39838,7 +39838,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -39921,7 +39921,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40004,7 +40004,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40087,7 +40087,7 @@ NetLogo 6.0.4
       <value value="&quot;bau&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40170,7 +40170,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40253,7 +40253,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40336,7 +40336,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40419,7 +40419,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40502,7 +40502,7 @@ NetLogo 6.0.4
       <value value="&quot;fish_catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40585,7 +40585,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40668,7 +40668,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40751,7 +40751,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40834,7 +40834,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -40917,7 +40917,7 @@ NetLogo 6.0.4
       <value value="&quot;fisher_revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -41000,7 +41000,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -41083,7 +41083,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -41166,7 +41166,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -41249,7 +41249,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>
@@ -41332,7 +41332,7 @@ NetLogo 6.0.4
       <value value="&quot;both&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;socorroquot;"/>
+      <value value="&quot;socorro&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="5"/>

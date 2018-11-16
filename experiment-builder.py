@@ -48,13 +48,17 @@ sustainability = {'sufficiency-w': 30, 'accessibility-w': 10, 'adoption-w': 25, 
 
 a = []
 s = ""
+lgu_swap = ""
 
 for lgu in lgus:
     for scenario in scenarios:
         for criterion in criteria:
-            a.append(lgu+"-"+scenario+"-"+criterion)
+            lgu_swap = lgu
+            if "_" in lgu_swap:
+                lgu_swap = lgu_swap.replace("_", "-")
+            a.append(lgu_swap+"-"+scenario+"-"+criterion)
             a.append(scenario)
-            a.append(lgu)
+            a.append(lgu_swap)
             exec("a.append("+lgu+"['blgu'])")
             exec("a.append("+lgu+"['mplgu'])")
             exec("a.append("+lgu+"['bd'])")
@@ -116,7 +120,7 @@ for lgu in lgus:
       <value value="&quot;''' + a[1] + '''&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
-      <value value="&quot;''' + a[2] + '''quot;"/>
+      <value value="&quot;''' + a[2] + '''&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="blgu">
       <value value="''' + str(a[3]) + '''"/>
