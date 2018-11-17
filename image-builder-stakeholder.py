@@ -6,14 +6,15 @@ import plotly
 import plotly.graph_objs as go
 import plotly.io as pio
 
-plotly.io.orca.config.executable = '/home/rckjsn/miniconda3/bin/orca'
+plotly.io.orca.config.executable = '/home/jason/miniconda2/bin/orca'
 
 #Initialization of constants
 lgus = ["magsingal", "dinapigue", "masinloc", "nasugbu", "jomalig",
             "quezon", "gasan", "mansalay", "jose-panganiban", "mercedes",
             "claveria", "anini-y", "carles", "toboso", "daanbantayan",
             "bien-unido", "pagsanghan", "arteche", "macarthur",
-            "baliguian", "dipolog", "rtlim", "maasim", "socorro"]
+            "baliguian", "dipolog", "rtlim", "maasim", "socorro",
+            "lcli", "lchi", "hcli", "hchi", "universe"]
 scenarios = ["bau", "fish-catch", "fisher-revenue", "both"] 
 criteria = ["baseline", "adoption", "accessibility", "sufficiency",
             "sustainability"]
@@ -206,7 +207,12 @@ label_lgu = {
     "dipolog": "Dipolog City, Zamboanga del Norte",
     "rtlim": "Roseller T. Lim, Zamboanga Sibugay",
     "maasim": "Maasim, Sarangani",
-    "socorro": "Socorro, Surigao del Norte"
+    "socorro": "Socorro, Surigao del Norte",
+    "lcli": "Low Cost Low Impact Municipalities",
+    "lchi": "Low Cost High Impact Municipalities",
+    "hcli": "High Cost Low Impact Municipalities",
+    "hchi": "High Cost High Impact Municipalities",
+    "universe": "All"
 }
 
 label_scenario = {
