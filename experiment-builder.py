@@ -17,9 +17,9 @@ criteria = ["baseline", "adoption", "accessibility", "sufficiency",
 
 masinloc = {'blgu': 2, 'mplgu': 14, 'bd': 2, 'academe': 0, 'business': 1, 'nga': 1}
 dinapigue = {'blgu': 16, 'mplgu': 2, 'bd': 0, 'academe': 0, 'business': 0, 'nga': 1}
-anini_y = {'blgu': 4, 'mplgu': 3, 'bd': 6, 'academe': 0, 'business': 1, 'nga': 0}
+anini_y = {'blgu': 4, 'mplgu': 3, 'bd': 6, 'academe': 0, 'business': 0, 'nga': 0}
 macarthur = {'blgu': 3, 'mplgu': 6, 'bd': 5, 'academe': 0, 'business': 0, 'nga': 0}
-pagsanghan = {'blgu': 13, 'mplgu': 5, 'bd': 0, 'academe': 0, 'business': 0, 'nga': 0}
+pagsanghan = {'blgu': 13, 'mplgu': 5, 'bd': 0, 'academe': 0, 'business': 1, 'nga': 0}
 claveria = {'blgu': 0, 'mplgu': 0, 'bd': 0, 'academe': 0, 'business': 0, 'nga': 0}
 baliguian = {'blgu': 0, 'mplgu': 1, 'bd': 0, 'academe': 0, 'business': 0, 'nga': 0}
 socorro = {'blgu': 5, 'mplgu': 3, 'bd': 0, 'academe': 0, 'business': 5, 'nga': 0}
@@ -49,15 +49,19 @@ sustainability = {'sufficiency-w': 30, 'accessibility-w': 10, 'adoption-w': 25, 
 a = []
 s = ""
 lgu_swap = ""
+scenario_swap = ""
 
 for lgu in lgus:
     for scenario in scenarios:
         for criterion in criteria:
             lgu_swap = lgu
+            scenario_swap = scenario
             if "_" in lgu_swap:
                 lgu_swap = lgu_swap.replace("_", "-")
-            a.append(lgu_swap+"-"+scenario+"-"+criterion)
-            a.append(scenario)
+            if "_" in scenario_swap:
+                scenario_swap = scenario_swap.replace("_", "-")
+            a.append(lgu_swap+"-"+scenario_swap+"-"+criterion)
+            a.append(scenario_swap)
             a.append(lgu_swap)
             exec("a.append("+lgu+"['blgu'])")
             exec("a.append("+lgu+"['mplgu'])")

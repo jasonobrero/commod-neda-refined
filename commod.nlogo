@@ -1940,7 +1940,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="magsingal-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="magsingal-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -1987,7 +1987,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;magsingal&quot;"/>
@@ -2023,7 +2023,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="magsingal-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="magsingal-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -2070,422 +2070,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;magsingal&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="magsingal-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;magsingal&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="magsingal-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;magsingal&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="magsingal-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;magsingal&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="magsingal-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;magsingal&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="magsingal-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;magsingal&quot;"/>
@@ -2521,7 +2106,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="magsingal-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="magsingal-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -2568,7 +2153,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;magsingal&quot;"/>
@@ -2604,7 +2189,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="magsingal-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="magsingal-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -2651,7 +2236,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;magsingal&quot;"/>
@@ -2687,7 +2272,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="magsingal-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="magsingal-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -2734,7 +2319,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;magsingal&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="magsingal-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;magsingal&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="magsingal-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;magsingal&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="magsingal-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;magsingal&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="magsingal-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;magsingal&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="magsingal-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;magsingal&quot;"/>
@@ -3600,7 +3600,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dinapigue-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dinapigue-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -3647,7 +3647,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dinapigue&quot;"/>
@@ -3683,7 +3683,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dinapigue-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dinapigue-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -3730,422 +3730,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dinapigue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="16"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dinapigue-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dinapigue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="16"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dinapigue-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dinapigue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="16"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dinapigue-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dinapigue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="16"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dinapigue-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dinapigue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="16"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dinapigue-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dinapigue&quot;"/>
@@ -4181,7 +3766,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dinapigue-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dinapigue-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -4228,7 +3813,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dinapigue&quot;"/>
@@ -4264,7 +3849,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dinapigue-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dinapigue-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -4311,7 +3896,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dinapigue&quot;"/>
@@ -4347,7 +3932,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dinapigue-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dinapigue-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -4394,7 +3979,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dinapigue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="16"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dinapigue-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dinapigue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="16"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dinapigue-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dinapigue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="16"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dinapigue-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dinapigue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="16"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dinapigue-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dinapigue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="16"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dinapigue-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dinapigue&quot;"/>
@@ -5260,7 +5260,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="masinloc-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="masinloc-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -5307,7 +5307,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;masinloc&quot;"/>
@@ -5343,7 +5343,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="masinloc-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="masinloc-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -5390,422 +5390,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;masinloc&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="14"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="masinloc-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;masinloc&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="14"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="masinloc-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;masinloc&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="14"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="masinloc-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;masinloc&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="14"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="masinloc-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;masinloc&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="14"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="masinloc-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;masinloc&quot;"/>
@@ -5841,7 +5426,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="masinloc-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="masinloc-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -5888,7 +5473,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;masinloc&quot;"/>
@@ -5924,7 +5509,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="masinloc-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="masinloc-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -5971,7 +5556,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;masinloc&quot;"/>
@@ -6007,7 +5592,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="masinloc-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="masinloc-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -6054,7 +5639,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;masinloc&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="14"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="masinloc-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;masinloc&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="14"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="masinloc-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;masinloc&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="14"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="masinloc-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;masinloc&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="14"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="masinloc-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;masinloc&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="14"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="masinloc-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;masinloc&quot;"/>
@@ -6920,7 +6920,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="nasugbu-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="nasugbu-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -6967,7 +6967,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;nasugbu&quot;"/>
@@ -7003,7 +7003,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="nasugbu-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="nasugbu-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -7050,422 +7050,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbu&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="nasugbu-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbu&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="nasugbu-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbu&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="nasugbu-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbu&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="nasugbu-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;nasugbu&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="nasugbu-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;nasugbu&quot;"/>
@@ -7501,7 +7086,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="nasugbu-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="nasugbu-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -7548,7 +7133,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;nasugbu&quot;"/>
@@ -7584,7 +7169,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="nasugbu-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="nasugbu-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -7631,7 +7216,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;nasugbu&quot;"/>
@@ -7667,7 +7252,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="nasugbu-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="nasugbu-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -7714,7 +7299,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;nasugbu&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="nasugbu-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;nasugbu&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="nasugbu-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;nasugbu&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="nasugbu-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;nasugbu&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="nasugbu-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;nasugbu&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="nasugbu-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;nasugbu&quot;"/>
@@ -8580,7 +8580,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jomalig-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jomalig-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -8627,7 +8627,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jomalig&quot;"/>
@@ -8663,7 +8663,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jomalig-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jomalig-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -8710,422 +8710,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jomalig&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jomalig-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jomalig&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jomalig-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jomalig&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jomalig-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jomalig&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jomalig-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jomalig&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="9"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jomalig-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jomalig&quot;"/>
@@ -9161,7 +8746,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jomalig-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jomalig-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -9208,7 +8793,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jomalig&quot;"/>
@@ -9244,7 +8829,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jomalig-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jomalig-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -9291,7 +8876,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jomalig&quot;"/>
@@ -9327,7 +8912,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jomalig-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jomalig-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -9374,7 +8959,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jomalig&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jomalig-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jomalig&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jomalig-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jomalig&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jomalig-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jomalig&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jomalig-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jomalig&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="9"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jomalig-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jomalig&quot;"/>
@@ -10240,7 +10240,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="quezon-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="quezon-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -10287,7 +10287,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;quezon&quot;"/>
@@ -10323,7 +10323,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="quezon-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="quezon-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -10370,422 +10370,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;quezon&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="quezon-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;quezon&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="quezon-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;quezon&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="quezon-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;quezon&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="quezon-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;quezon&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="quezon-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;quezon&quot;"/>
@@ -10821,7 +10406,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="quezon-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="quezon-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -10868,7 +10453,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;quezon&quot;"/>
@@ -10904,7 +10489,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="quezon-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="quezon-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -10951,7 +10536,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;quezon&quot;"/>
@@ -10987,7 +10572,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="quezon-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="quezon-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -11034,7 +10619,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;quezon&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="quezon-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;quezon&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="quezon-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;quezon&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="quezon-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;quezon&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="quezon-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;quezon&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="quezon-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;quezon&quot;"/>
@@ -11900,7 +11900,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="gasan-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="gasan-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -11947,7 +11947,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;gasan&quot;"/>
@@ -11983,7 +11983,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="gasan-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="gasan-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -12030,422 +12030,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;gasan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="18"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="gasan-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;gasan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="18"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="gasan-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;gasan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="18"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="gasan-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;gasan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="18"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="gasan-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;gasan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="18"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="gasan-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;gasan&quot;"/>
@@ -12481,7 +12066,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="gasan-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="gasan-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -12528,7 +12113,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;gasan&quot;"/>
@@ -12564,7 +12149,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="gasan-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="gasan-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -12611,7 +12196,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;gasan&quot;"/>
@@ -12647,7 +12232,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="gasan-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="gasan-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -12694,7 +12279,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;gasan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="18"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="gasan-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;gasan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="18"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="gasan-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;gasan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="18"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="gasan-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;gasan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="18"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="gasan-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;gasan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="18"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="gasan-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;gasan&quot;"/>
@@ -13560,7 +13560,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mansalay-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mansalay-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -13607,7 +13607,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mansalay&quot;"/>
@@ -13643,7 +13643,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mansalay-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mansalay-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -13690,422 +13690,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mansalay&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="15"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mansalay-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mansalay&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="15"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mansalay-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mansalay&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="15"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mansalay-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mansalay&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="15"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mansalay-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mansalay&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="15"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mansalay-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mansalay&quot;"/>
@@ -14141,7 +13726,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mansalay-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mansalay-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -14188,7 +13773,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mansalay&quot;"/>
@@ -14224,7 +13809,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mansalay-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mansalay-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -14271,7 +13856,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mansalay&quot;"/>
@@ -14307,7 +13892,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mansalay-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mansalay-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -14354,7 +13939,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mansalay&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="15"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mansalay-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mansalay&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="15"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mansalay-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mansalay&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="15"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mansalay-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mansalay&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="15"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mansalay-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mansalay&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="15"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mansalay-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mansalay&quot;"/>
@@ -15220,7 +15220,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose-panganiban-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15267,7 +15267,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jose-panganiban&quot;"/>
@@ -15303,7 +15303,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose-panganiban-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15350,422 +15350,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jose-panganiban&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jose-panganiban-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jose-panganiban&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jose-panganiban-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jose-panganiban&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jose-panganiban-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jose-panganiban&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jose-panganiban-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;jose-panganiban&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="7"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="jose-panganiban-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jose-panganiban&quot;"/>
@@ -15801,7 +15386,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose-panganiban-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15848,7 +15433,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jose-panganiban&quot;"/>
@@ -15884,7 +15469,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose-panganiban-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -15931,7 +15516,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jose-panganiban&quot;"/>
@@ -15967,7 +15552,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="jose-panganiban-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="jose-panganiban-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -16014,7 +15599,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jose-panganiban&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jose-panganiban-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jose-panganiban&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jose-panganiban-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jose-panganiban&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jose-panganiban-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jose-panganiban&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jose-panganiban-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;jose-panganiban&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="7"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="jose-panganiban-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;jose-panganiban&quot;"/>
@@ -16880,7 +16880,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mercedes-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mercedes-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -16927,7 +16927,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mercedes&quot;"/>
@@ -16963,7 +16963,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mercedes-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mercedes-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -17010,422 +17010,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mercedes&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mercedes-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mercedes&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mercedes-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mercedes&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mercedes-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mercedes&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mercedes-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;mercedes&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="mercedes-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mercedes&quot;"/>
@@ -17461,7 +17046,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mercedes-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mercedes-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -17508,7 +17093,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mercedes&quot;"/>
@@ -17544,7 +17129,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mercedes-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mercedes-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -17591,7 +17176,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mercedes&quot;"/>
@@ -17627,7 +17212,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="mercedes-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="mercedes-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -17674,7 +17259,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mercedes&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mercedes-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mercedes&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mercedes-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mercedes&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mercedes-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mercedes&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mercedes-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;mercedes&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="mercedes-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;mercedes&quot;"/>
@@ -18540,7 +18540,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="claveria-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="claveria-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -18587,7 +18587,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;claveria&quot;"/>
@@ -18623,7 +18623,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="claveria-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="claveria-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -18670,422 +18670,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;claveria&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="claveria-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;claveria&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="claveria-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;claveria&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="claveria-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;claveria&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="claveria-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;claveria&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="claveria-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;claveria&quot;"/>
@@ -19121,7 +18706,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="claveria-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="claveria-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -19168,7 +18753,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;claveria&quot;"/>
@@ -19204,7 +18789,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="claveria-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="claveria-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -19251,7 +18836,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;claveria&quot;"/>
@@ -19287,7 +18872,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="claveria-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="claveria-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -19334,7 +18919,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;claveria&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="claveria-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;claveria&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="claveria-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;claveria&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="claveria-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;claveria&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="claveria-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;claveria&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="claveria-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;claveria&quot;"/>
@@ -19847,7 +19847,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -19930,7 +19930,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -20013,7 +20013,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -20096,7 +20096,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -20179,7 +20179,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -20200,7 +20200,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini-y-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20247,7 +20247,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;anini-y&quot;"/>
@@ -20262,7 +20262,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -20283,7 +20283,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini-y-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20330,7 +20330,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;anini-y&quot;"/>
@@ -20345,422 +20345,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
       <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="anini-y-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;anini-y&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="anini-y-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;anini-y&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="anini-y-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;anini-y&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="anini-y-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;anini-y&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="anini-y-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;anini-y&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -20781,7 +20366,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini-y-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20828,7 +20413,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;anini-y&quot;"/>
@@ -20843,7 +20428,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -20864,7 +20449,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini-y-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20911,7 +20496,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;anini-y&quot;"/>
@@ -20926,7 +20511,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -20947,7 +20532,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="anini-y-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="anini-y-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -20994,7 +20579,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;anini-y&quot;"/>
@@ -21009,7 +20594,422 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="anini-y-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;anini-y&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="anini-y-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;anini-y&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="anini-y-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;anini-y&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="anini-y-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;anini-y&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="anini-y-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;anini-y&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -21092,7 +21092,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -21175,7 +21175,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -21258,7 +21258,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -21341,7 +21341,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -21424,7 +21424,7 @@ NetLogo 6.0.4
       <value value="6"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="1"/>
+      <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -21860,7 +21860,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="carles-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="carles-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -21907,7 +21907,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;carles&quot;"/>
@@ -21943,7 +21943,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="carles-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="carles-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -21990,422 +21990,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;carles&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="carles-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;carles&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="carles-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;carles&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="carles-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;carles&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="carles-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;carles&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="8"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="carles-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;carles&quot;"/>
@@ -22441,7 +22026,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="carles-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="carles-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -22488,7 +22073,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;carles&quot;"/>
@@ -22524,7 +22109,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="carles-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="carles-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -22571,7 +22156,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;carles&quot;"/>
@@ -22607,7 +22192,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="carles-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="carles-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -22654,7 +22239,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;carles&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="carles-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;carles&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="carles-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;carles&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="carles-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;carles&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="carles-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;carles&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="8"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="carles-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;carles&quot;"/>
@@ -23520,7 +23520,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="toboso-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="toboso-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -23567,7 +23567,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;toboso&quot;"/>
@@ -23603,7 +23603,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="toboso-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="toboso-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -23650,422 +23650,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;toboso&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="toboso-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;toboso&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="toboso-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;toboso&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="toboso-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;toboso&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="toboso-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;toboso&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="toboso-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;toboso&quot;"/>
@@ -24101,7 +23686,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="toboso-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="toboso-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -24148,7 +23733,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;toboso&quot;"/>
@@ -24184,7 +23769,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="toboso-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="toboso-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -24231,7 +23816,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;toboso&quot;"/>
@@ -24267,7 +23852,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="toboso-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="toboso-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -24314,7 +23899,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;toboso&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="toboso-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;toboso&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="toboso-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;toboso&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="toboso-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;toboso&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="toboso-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;toboso&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="toboso-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;toboso&quot;"/>
@@ -25180,7 +25180,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="daanbantayan-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="daanbantayan-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -25227,7 +25227,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;daanbantayan&quot;"/>
@@ -25263,7 +25263,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="daanbantayan-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="daanbantayan-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -25310,422 +25310,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="11"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="daanbantayan-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="11"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="daanbantayan-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="11"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="daanbantayan-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="11"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="daanbantayan-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;daanbantayan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="11"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="daanbantayan-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;daanbantayan&quot;"/>
@@ -25761,7 +25346,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="daanbantayan-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="daanbantayan-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -25808,7 +25393,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;daanbantayan&quot;"/>
@@ -25844,7 +25429,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="daanbantayan-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="daanbantayan-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -25891,7 +25476,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;daanbantayan&quot;"/>
@@ -25927,7 +25512,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="daanbantayan-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="daanbantayan-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -25974,7 +25559,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;daanbantayan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="11"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="daanbantayan-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;daanbantayan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="11"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="daanbantayan-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;daanbantayan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="11"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="daanbantayan-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;daanbantayan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="11"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="daanbantayan-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;daanbantayan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="11"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="daanbantayan-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;daanbantayan&quot;"/>
@@ -26840,7 +26840,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien-unido-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -26887,7 +26887,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;bien-unido&quot;"/>
@@ -26923,7 +26923,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien-unido-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -26970,422 +26970,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;bien-unido&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="bien-unido-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;bien-unido&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="bien-unido-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;bien-unido&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="bien-unido-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;bien-unido&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="bien-unido-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;bien-unido&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="bien-unido-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;bien-unido&quot;"/>
@@ -27421,7 +27006,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien-unido-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27468,7 +27053,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;bien-unido&quot;"/>
@@ -27504,7 +27089,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien-unido-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27551,7 +27136,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;bien-unido&quot;"/>
@@ -27587,7 +27172,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="bien-unido-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="bien-unido-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -27634,7 +27219,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;bien-unido&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="bien-unido-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;bien-unido&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="bien-unido-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;bien-unido&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="bien-unido-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;bien-unido&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="bien-unido-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;bien-unido&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="bien-unido-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;bien-unido&quot;"/>
@@ -28147,7 +28147,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -28230,7 +28230,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -28313,7 +28313,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -28396,7 +28396,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -28479,7 +28479,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -28500,7 +28500,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="pagsanghan-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="pagsanghan-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -28547,7 +28547,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;pagsanghan&quot;"/>
@@ -28562,7 +28562,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -28583,7 +28583,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="pagsanghan-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="pagsanghan-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -28630,7 +28630,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;pagsanghan&quot;"/>
@@ -28645,422 +28645,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="pagsanghan-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="13"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="pagsanghan-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="13"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="pagsanghan-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="13"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="pagsanghan-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="13"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="pagsanghan-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;pagsanghan&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="13"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -29081,7 +28666,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="pagsanghan-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="pagsanghan-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -29128,7 +28713,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;pagsanghan&quot;"/>
@@ -29143,7 +28728,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -29164,7 +28749,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="pagsanghan-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="pagsanghan-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -29211,7 +28796,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;pagsanghan&quot;"/>
@@ -29226,7 +28811,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -29247,7 +28832,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="pagsanghan-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="pagsanghan-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -29294,7 +28879,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;pagsanghan&quot;"/>
@@ -29309,7 +28894,422 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
       <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="pagsanghan-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;pagsanghan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="13"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="pagsanghan-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;pagsanghan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="13"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="pagsanghan-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;pagsanghan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="13"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="pagsanghan-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;pagsanghan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="13"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="pagsanghan-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;pagsanghan&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="13"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -29392,7 +29392,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -29475,7 +29475,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -29558,7 +29558,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -29641,7 +29641,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -29724,7 +29724,7 @@ NetLogo 6.0.4
       <value value="0"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="business">
-      <value value="0"/>
+      <value value="1"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="academe">
       <value value="0"/>
@@ -30160,7 +30160,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="arteche-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="arteche-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -30207,7 +30207,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;arteche&quot;"/>
@@ -30243,7 +30243,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="arteche-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="arteche-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -30290,422 +30290,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;arteche&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="arteche-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;arteche&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="arteche-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;arteche&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="arteche-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;arteche&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="arteche-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;arteche&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="2"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="arteche-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;arteche&quot;"/>
@@ -30741,7 +30326,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="arteche-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="arteche-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -30788,7 +30373,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;arteche&quot;"/>
@@ -30824,7 +30409,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="arteche-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="arteche-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -30871,7 +30456,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;arteche&quot;"/>
@@ -30907,7 +30492,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="arteche-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="arteche-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -30954,7 +30539,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;arteche&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="arteche-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;arteche&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="arteche-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;arteche&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="arteche-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;arteche&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="arteche-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;arteche&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="2"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="arteche-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;arteche&quot;"/>
@@ -31820,7 +31820,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="macarthur-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="macarthur-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -31867,7 +31867,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;macarthur&quot;"/>
@@ -31903,7 +31903,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="macarthur-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="macarthur-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -31950,422 +31950,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;macarthur&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="macarthur-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;macarthur&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="macarthur-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;macarthur&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="macarthur-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;macarthur&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="macarthur-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;macarthur&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="6"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="macarthur-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;macarthur&quot;"/>
@@ -32401,7 +31986,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="macarthur-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="macarthur-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -32448,7 +32033,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;macarthur&quot;"/>
@@ -32484,7 +32069,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="macarthur-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="macarthur-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -32531,7 +32116,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;macarthur&quot;"/>
@@ -32567,7 +32152,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="macarthur-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="macarthur-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -32614,7 +32199,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;macarthur&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="macarthur-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;macarthur&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="macarthur-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;macarthur&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="macarthur-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;macarthur&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="macarthur-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;macarthur&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="6"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="macarthur-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;macarthur&quot;"/>
@@ -33480,7 +33480,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="baliguian-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="baliguian-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -33527,7 +33527,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;baliguian&quot;"/>
@@ -33563,7 +33563,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="baliguian-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="baliguian-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -33610,422 +33610,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;baliguian&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="baliguian-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;baliguian&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="baliguian-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;baliguian&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="baliguian-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;baliguian&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="baliguian-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;baliguian&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="baliguian-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;baliguian&quot;"/>
@@ -34061,7 +33646,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="baliguian-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="baliguian-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -34108,7 +33693,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;baliguian&quot;"/>
@@ -34144,7 +33729,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="baliguian-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="baliguian-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -34191,7 +33776,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;baliguian&quot;"/>
@@ -34227,7 +33812,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="baliguian-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="baliguian-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -34274,7 +33859,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;baliguian&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="baliguian-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;baliguian&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="baliguian-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;baliguian&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="baliguian-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;baliguian&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="baliguian-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;baliguian&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="baliguian-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;baliguian&quot;"/>
@@ -35140,7 +35140,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dipolog-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dipolog-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -35187,7 +35187,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dipolog&quot;"/>
@@ -35223,7 +35223,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dipolog-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dipolog-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -35270,422 +35270,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dipolog&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dipolog-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dipolog&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dipolog-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dipolog&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dipolog-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dipolog&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dipolog-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;dipolog&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="dipolog-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dipolog&quot;"/>
@@ -35721,7 +35306,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dipolog-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dipolog-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -35768,7 +35353,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dipolog&quot;"/>
@@ -35804,7 +35389,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dipolog-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dipolog-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -35851,7 +35436,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dipolog&quot;"/>
@@ -35887,7 +35472,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="dipolog-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="dipolog-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -35934,7 +35519,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dipolog&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dipolog-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dipolog&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dipolog-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dipolog&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dipolog-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dipolog&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dipolog-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;dipolog&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="dipolog-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;dipolog&quot;"/>
@@ -36800,7 +36800,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="rtlim-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="rtlim-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -36847,7 +36847,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;rtlim&quot;"/>
@@ -36883,7 +36883,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="rtlim-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="rtlim-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -36930,422 +36930,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;rtlim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="rtlim-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;rtlim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="rtlim-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;rtlim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="rtlim-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;rtlim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="rtlim-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;rtlim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="1"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="rtlim-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;rtlim&quot;"/>
@@ -37381,7 +36966,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="rtlim-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="rtlim-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -37428,7 +37013,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;rtlim&quot;"/>
@@ -37464,7 +37049,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="rtlim-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="rtlim-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -37511,7 +37096,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;rtlim&quot;"/>
@@ -37547,7 +37132,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="rtlim-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="rtlim-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -37594,7 +37179,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;rtlim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="rtlim-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;rtlim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="rtlim-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;rtlim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="rtlim-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;rtlim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="rtlim-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;rtlim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="1"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="rtlim-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;rtlim&quot;"/>
@@ -38460,7 +38460,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="maasim-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="maasim-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -38507,7 +38507,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;maasim&quot;"/>
@@ -38543,7 +38543,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="maasim-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="maasim-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -38590,422 +38590,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;maasim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="maasim-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;maasim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="maasim-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;maasim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="maasim-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;maasim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="maasim-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;maasim&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="12"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="4"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="maasim-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;maasim&quot;"/>
@@ -39041,7 +38626,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="maasim-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="maasim-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -39088,7 +38673,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;maasim&quot;"/>
@@ -39124,7 +38709,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="maasim-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="maasim-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -39171,7 +38756,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;maasim&quot;"/>
@@ -39207,7 +38792,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="maasim-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="maasim-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -39254,7 +38839,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;maasim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="maasim-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;maasim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="maasim-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;maasim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="maasim-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;maasim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="maasim-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;maasim&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="12"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="4"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="maasim-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;maasim&quot;"/>
@@ -40120,7 +40120,7 @@ NetLogo 6.0.4
       <value value="35"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="socorro-fish_catch-baseline" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="socorro-fish-catch-baseline" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -40167,7 +40167,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;socorro&quot;"/>
@@ -40203,7 +40203,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="socorro-fish_catch-adoption" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="socorro-fish-catch-adoption" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -40250,422 +40250,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;socorro&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="socorro-fish_catch-accessibility" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;socorro&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="socorro-fish_catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;socorro&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="socorro-fish_catch-sustainability" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fish_catch&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;socorro&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="30"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="10"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="35"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="socorro-fisher_revenue-baseline" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="population">
-      <value value="&quot;socorro&quot;"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="blgu">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="mplgu">
-      <value value="3"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="bd">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="business">
-      <value value="5"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="academe">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="nga">
-      <value value="0"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sufficiency-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="accessibility-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="adoption-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-    <enumeratedValueSet variable="sustainability-w">
-      <value value="25"/>
-    </enumeratedValueSet>
-  </experiment>
-	<experiment name="socorro-fisher_revenue-adoption" repetitions="100" runMetricsEveryStep="true">
-    <setup>spawn</setup>
-    <go>go</go>
-    <exitCondition>ticks = 25</exitCondition>
-    <metric>sum [pf] of blgu-players</metric>
-    <metric>sum [pf] of mplgu-players</metric>
-    <metric>sum [pf] of bd-players</metric>
-    <metric>sum [pf] of academe-players</metric>
-    <metric>sum [pf] of business-players</metric>
-    <metric>sum [pf] of nga-players</metric>
-    <metric>sum [pf] of turtles</metric>
-    <metric>sum [nf] of blgu-players</metric>
-    <metric>sum [nf] of mplgu-players</metric>
-    <metric>sum [nf] of bd-players</metric>
-    <metric>sum [nf] of academe-players</metric>
-    <metric>sum [nf] of business-players</metric>
-    <metric>sum [nf] of nga-players</metric>
-    <metric>sum [nf] of turtles</metric>
-    <metric>sum [g] of blgu-players</metric>
-    <metric>sum [g] of mplgu-players</metric>
-    <metric>sum [g] of bd-players</metric>
-    <metric>sum [g] of academe-players</metric>
-    <metric>sum [g] of business-players</metric>
-    <metric>sum [g] of nga-players</metric>
-    <metric>sum [g] of turtles</metric>
-    <metric>sum [cw] of blgu-players</metric>
-    <metric>sum [cw] of mplgu-players</metric>
-    <metric>sum [cw] of bd-players</metric>
-    <metric>sum [cw] of academe-players</metric>
-    <metric>sum [cw] of business-players</metric>
-    <metric>sum [cw] of nga-players</metric>
-    <metric>sum [cw] of turtles</metric>
-    <metric>sum [ps] of blgu-players</metric>
-    <metric>sum [ps] of mplgu-players</metric>
-    <metric>sum [ps] of bd-players</metric>
-    <metric>sum [ps] of academe-players</metric>
-    <metric>sum [ps] of business-players</metric>
-    <metric>sum [ps] of nga-players</metric>
-    <metric>sum [ps] of turtles</metric>
-    <metric>sum [lb] of blgu-players</metric>
-    <metric>sum [lb] of mplgu-players</metric>
-    <metric>sum [lb] of bd-players</metric>
-    <metric>sum [lb] of academe-players</metric>
-    <metric>sum [lb] of business-players</metric>
-    <metric>sum [lb] of nga-players</metric>
-    <metric>sum [lb] of turtles</metric>
-    <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;socorro&quot;"/>
@@ -40701,7 +40286,7 @@ NetLogo 6.0.4
       <value value="25"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="socorro-fisher_revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="socorro-fish-catch-accessibility" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -40748,7 +40333,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;socorro&quot;"/>
@@ -40784,7 +40369,7 @@ NetLogo 6.0.4
       <value value="10"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="socorro-fisher_revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="socorro-fish-catch-sufficiency" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -40831,7 +40416,7 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;socorro&quot;"/>
@@ -40867,7 +40452,7 @@ NetLogo 6.0.4
       <value value="30"/>
     </enumeratedValueSet>
   </experiment>
-	<experiment name="socorro-fisher_revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+	<experiment name="socorro-fish-catch-sustainability" repetitions="100" runMetricsEveryStep="true">
     <setup>spawn</setup>
     <go>go</go>
     <exitCondition>ticks = 25</exitCondition>
@@ -40914,7 +40499,422 @@ NetLogo 6.0.4
     <metric>sum [lb] of nga-players</metric>
     <metric>sum [lb] of turtles</metric>
     <enumeratedValueSet variable="scenario">
-      <value value="&quot;fisher_revenue&quot;"/>
+      <value value="&quot;fish-catch&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;socorro&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="socorro-fisher-revenue-baseline" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;socorro&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="socorro-fisher-revenue-adoption" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;socorro&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="socorro-fisher-revenue-accessibility" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;socorro&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="socorro-fisher-revenue-sufficiency" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="population">
+      <value value="&quot;socorro&quot;"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="blgu">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="mplgu">
+      <value value="3"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="bd">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="business">
+      <value value="5"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="academe">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="nga">
+      <value value="0"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sufficiency-w">
+      <value value="35"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="accessibility-w">
+      <value value="25"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="adoption-w">
+      <value value="10"/>
+    </enumeratedValueSet>
+    <enumeratedValueSet variable="sustainability-w">
+      <value value="30"/>
+    </enumeratedValueSet>
+  </experiment>
+	<experiment name="socorro-fisher-revenue-sustainability" repetitions="100" runMetricsEveryStep="true">
+    <setup>spawn</setup>
+    <go>go</go>
+    <exitCondition>ticks = 25</exitCondition>
+    <metric>sum [pf] of blgu-players</metric>
+    <metric>sum [pf] of mplgu-players</metric>
+    <metric>sum [pf] of bd-players</metric>
+    <metric>sum [pf] of academe-players</metric>
+    <metric>sum [pf] of business-players</metric>
+    <metric>sum [pf] of nga-players</metric>
+    <metric>sum [pf] of turtles</metric>
+    <metric>sum [nf] of blgu-players</metric>
+    <metric>sum [nf] of mplgu-players</metric>
+    <metric>sum [nf] of bd-players</metric>
+    <metric>sum [nf] of academe-players</metric>
+    <metric>sum [nf] of business-players</metric>
+    <metric>sum [nf] of nga-players</metric>
+    <metric>sum [nf] of turtles</metric>
+    <metric>sum [g] of blgu-players</metric>
+    <metric>sum [g] of mplgu-players</metric>
+    <metric>sum [g] of bd-players</metric>
+    <metric>sum [g] of academe-players</metric>
+    <metric>sum [g] of business-players</metric>
+    <metric>sum [g] of nga-players</metric>
+    <metric>sum [g] of turtles</metric>
+    <metric>sum [cw] of blgu-players</metric>
+    <metric>sum [cw] of mplgu-players</metric>
+    <metric>sum [cw] of bd-players</metric>
+    <metric>sum [cw] of academe-players</metric>
+    <metric>sum [cw] of business-players</metric>
+    <metric>sum [cw] of nga-players</metric>
+    <metric>sum [cw] of turtles</metric>
+    <metric>sum [ps] of blgu-players</metric>
+    <metric>sum [ps] of mplgu-players</metric>
+    <metric>sum [ps] of bd-players</metric>
+    <metric>sum [ps] of academe-players</metric>
+    <metric>sum [ps] of business-players</metric>
+    <metric>sum [ps] of nga-players</metric>
+    <metric>sum [ps] of turtles</metric>
+    <metric>sum [lb] of blgu-players</metric>
+    <metric>sum [lb] of mplgu-players</metric>
+    <metric>sum [lb] of bd-players</metric>
+    <metric>sum [lb] of academe-players</metric>
+    <metric>sum [lb] of business-players</metric>
+    <metric>sum [lb] of nga-players</metric>
+    <metric>sum [lb] of turtles</metric>
+    <enumeratedValueSet variable="scenario">
+      <value value="&quot;fisher-revenue&quot;"/>
     </enumeratedValueSet>
     <enumeratedValueSet variable="population">
       <value value="&quot;socorro&quot;"/>
