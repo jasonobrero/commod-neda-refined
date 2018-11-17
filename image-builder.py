@@ -220,7 +220,7 @@ title = title + ' Scenario '+ label_criteria[criterion] +' (100 replicates)'
 filename = 'rpg_' + criterion + '_graphs/' + lgu + '-' + scenario + '.html'
 if not os.path.exists('rpg_' + criterion + '_graphs/images'):
     os.mkdir('rpg_' + criterion + '_graphs/images')
-image_name = 'rpg_' + criterion + '_graphs/' + lgu + '-' + scenario + '.png'
+image_name = 'rpg_' + criterion + '_graphs/images/' + lgu + '-' + scenario + '.png'
 
 #Create graph
 data = [trace_pf, trace_nf, trace_g, trace_cw, trace_ps, trace_lb]
