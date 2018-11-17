@@ -7,7 +7,7 @@ files='baseline'
 for file in $files; do
     for lgu in $lgus; do
         for scenario in $scenarios; do
-            str="python image-builder.py $lgu $scenario $file y"
+            str="python image-builder-stakeholder.py $lgu $scenario $file y"
             eval $str
         done
     done

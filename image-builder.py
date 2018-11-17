@@ -4,6 +4,9 @@ import os
 import sys
 import plotly
 import plotly.graph_objs as go
+import plotly.io as pio
+
+plotly.io.orca.config.executable = '/home/rckjsn/miniconda3/bin/orca'
 
 #Initialization of constants
 lgus = ["magsingal", "dinapigue", "masinloc", "nasugbu", "jomalig",
@@ -215,6 +218,9 @@ title = title + label_lgu[lgu] + ' in<br>' + label_scenario[scenario]
 title = title + ' Scenario '+ label_criteria[criterion] +' (100 replicates)'
 
 filename = 'rpg_' + criterion + '_graphs/' + lgu + '-' + scenario + '.html'
+if not os.path.exists('rpg_' + criterion + '_graphs/images'):
+    os.mkdir('rpg_' + criterion + '_graphs/images')
+image_name = 'rpg_' + criterion + '_graphs/' + lgu + '-' + scenario + '.png'
 
 #Create graph
 data = [trace_pf, trace_nf, trace_g, trace_cw, trace_ps, trace_lb]
@@ -223,14 +229,10 @@ layout = dict(
     yaxis = dict(title = "Average Score (across replicates)"),
     xaxis = dict(title = "Run Number")
 )
+fig = go.Figure(data = data, layout = layout)
 
-if str.upper(download) == 'Y':
-    plotly.offline.plot({
+plotly.offline.plot({
         "data": data,
         "layout": layout
-    }, image='png', filename=filename)
-else:
-    plotly.offline.plot({
-        "data": data,
-        "layout": layout
-    }, filename=filename)
+    }, filename=filename, auto_open=False)
+pio.write_image(fig, image_name)
