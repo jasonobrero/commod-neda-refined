@@ -88,8 +88,6 @@ Get the total per agent
 #There are 25 lines, for 25 ticks.
 #Tick number 1 starts at line 28 (zero indexing is used)
 ticks = 25
-if criterion != "baseline":
-    ticks = 10
 for tick in range(0, ticks):
     #Get the line of the CSV
     x = lines[28 + tick]
