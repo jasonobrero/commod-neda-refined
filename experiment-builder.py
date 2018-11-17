@@ -10,7 +10,8 @@ lgus = ["magsingal", "dinapigue", "masinloc", "nasugbu", "jomalig",
             "quezon", "gasan", "mansalay", "jose_panganiban", "mercedes",
             "claveria", "anini_y", "carles", "toboso", "daanbantayan",
             "bien_unido", "pagsanghan", "arteche", "macarthur",
-            "baliguian", "dipolog", "rtlim", "maasim", "socorro"]
+            "baliguian", "dipolog", "rtlim", "maasim", "socorro",
+            "lcli", "lchi", "hcli", "hchi", "universe"]
 scenarios = ["bau", "fish_catch", "fisher_revenue", "both"] 
 criteria = ["baseline", "adoption", "accessibility", "sufficiency",
             "sustainability"]
@@ -39,6 +40,12 @@ arteche = {'blgu': 1, 'mplgu': 6, 'bd': 2, 'academe': 0, 'business': 3, 'nga': 2
 daanbantayan = {'blgu': 4, 'mplgu': 5, 'bd': 11, 'academe': 0, 'business': 2, 'nga': 0}
 mercedes = {'blgu': 4, 'mplgu': 10, 'bd': 0, 'academe': 1, 'business': 0, 'nga': 1}
 nasugbu = {'blgu': 0, 'mplgu': 0, 'bd': 0, 'academe': 0, 'business': 0, 'nga': 0}
+
+lcli = {'blgu': 38, 'mplgu': 30, 'bd': 13, 'academe': 0, 'business': 2, 'nga': 2}
+lchi = {'blgu': 15, 'mplgu': 12, 'bd': 1, 'academe': 0, 'business': 18, 'nga': 1}
+hcli = {'blgu': 43, 'mplgu': 43, 'bd': 6, 'academe': 0, 'business': 3, 'nga': 4}
+hchi = {'blgu': 26, 'mplgu': 44, 'bd': 21, 'academe': 5, 'business': 6, 'nga': 8}
+universe = {'blgu': 122, 'mplgu': 129, 'bd': 29, 'academe': 5, 'business': 29, 'nga': 15}
 
 baseline = {'sufficiency-w': 25, 'accessibility-w': 25, 'adoption-w': 25, 'sustainability-w': 25}
 adoption = {'sufficiency-w': 10, 'accessibility-w': 30, 'adoption-w': 35, 'sustainability-w': 25}
