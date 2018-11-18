@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-lgus='magsingal dinapigue masinloc nasugbu jomalig quezon gasan mansalay jose-panganiban mercedes claveria anini-y carles toboso daanbantayan bien-unido pagsanghan arteche macarthur baliguian dipolog rtlim maasim socorro'
+lgus='lcli lchi hcli hchi universe jomalig dinapigue'
 scenarios='bau fish-catch fisher-revenue both'
 files='accessibility adoption sufficiency sustainability'
 
