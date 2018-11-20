@@ -20,8 +20,8 @@ criteria = ["baseline", "adoption", "accessibility", "sufficiency",
             "sustainability"]
 
 #Error checking of argument count
-if not len(sys.argv) == 5:
-    raise ValueError('Usage: python image-builder.py <lgu> <scenario> <criteria> <y/n>.')
+if not len(sys.argv) == 4:
+    raise ValueError('Usage: python image-builder.py <lgu> <scenario> <criteria>.')
 
 #Assigning of command line arguments
 lgu = sys.argv[1]
