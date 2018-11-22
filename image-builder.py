@@ -6,7 +6,7 @@ import plotly
 import plotly.graph_objs as go
 import plotly.io as pio
 
-plotly.io.orca.config.executable = '/home/jason/miniconda2/bin/orca'
+plotly.io.orca.config.executable = '/home/neda-anres/miniconda2/bin/orca'
 
 #Initialization of constants
 lgus = ["magsingal", "dinapigue", "masinloc", "nasugbu", "jomalig",
