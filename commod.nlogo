@@ -211,6 +211,240 @@ to get-data-from-files
   if population = "hchi" [set population-list hchi]
   if population = "universe" [set population-list universe]
 
+  if population = "masinloc" [
+    	set blgu 2
+    	set mplgu 14
+    	set bd 2
+    	set academe 0
+    	set business 1
+    	set nga 1
+  ]
+  if population = "dinapigue" [
+    	set blgu 16
+    	set mplgu 2
+    	set bd 0
+    	set academe 0
+    	set business 0
+    	set nga 1
+  ]
+  if population = "anini_y" [
+    	set blgu 4
+    	set mplgu 3
+    	set bd 6
+    	set academe 0
+    	set business 0
+    	set nga 0
+  ]
+  if population = "macarthur" [
+    	set blgu 3
+    	set mplgu 6
+    	set bd 5
+    	set academe 0
+    	set business 0
+    	set nga 0
+  ]
+  if population = "pagsanghan" [
+    	set blgu 13
+    	set mplgu 5
+    	set bd 0
+    	set academe 0
+    	set business 1
+    	set nga 0
+  ]
+  if population = "claveria" [
+    	set blgu 0
+    	set mplgu 0
+    	set bd 0
+    	set academe 0
+    	set business 0
+    	set nga 0
+  ]
+  if population = "baliguian" [
+    	set blgu 0
+    	set mplgu 1
+    	set bd 0
+    	set academe 0
+    	set business 0
+    	set nga 0
+  ]
+  if population = "socorro" [
+    	set blgu 5
+    	set mplgu 3
+    	set bd 0
+    	set academe 0
+    	set business 5
+    	set nga 0
+  ]
+  if population = "bien_unido" [
+    	set blgu 2
+    	set mplgu 4
+    	set bd 0
+    	set academe 0
+    	set business 12
+    	set nga 1
+  ]
+  if population = "carles" [
+    	set blgu 8
+    	set mplgu 4
+    	set bd 1
+    	set academe 0
+    	set business 1
+    	set nga 0
+  ]
+  if population = "magsingal" [
+    	set blgu 1
+    	set mplgu 9
+    	set bd 0
+    	set academe 0
+    	set business 0
+    	set nga 1
+  ]
+  if population = "gasan" [
+    	set blgu 18
+    	set mplgu 3
+    	set bd 1
+    	set academe 0
+    	set business 0
+    	set nga 1
+  ]
+  if population = "jose_panganiban" [
+    	set blgu 7
+    	set mplgu 7
+    	set bd 1
+    	set academe 0
+    	set business 0
+    	set nga 2
+  ]
+  if population = "mansalay" [
+    	set blgu 0
+    	set mplgu 15
+    	set bd 4
+    	set academe 0
+    	set business 2
+    	set nga 0
+  ]
+  if population = "maasim" [
+    	set blgu 12
+    	set mplgu 4
+    	set bd 0
+    	set academe 0
+    	set business 0
+    	set nga 0
+  ]
+  if population = "toboso" [
+    	set blgu 5
+    	set mplgu 5
+    	set bd 0
+    	set academe 0
+    	set business 1
+    	set nga 0
+  ]
+  if population = "jomalig" [
+    	set blgu 9
+    	set mplgu 8
+    	set bd 1
+    	set academe 2
+    	set business 0
+    	set nga 1
+  ]
+  if population = "quezon" [
+    	set blgu 7
+    	set mplgu 0
+    	set bd 1
+    	set academe 1
+    	set business 1
+    	set nga 3
+  ]
+  if population = "dipolog" [
+    	set blgu 1
+    	set mplgu 10
+    	set bd 5
+    	set academe 1
+    	set business 0
+    	set nga 1
+  ]
+  if population = "rtlim" [
+    	set blgu 0
+    	set mplgu 5
+    	set bd 1
+    	set academe 0
+    	set business 0
+    	set nga 0
+  ]
+  if population = "arteche" [
+    	set blgu 1
+    	set mplgu 6
+    	set bd 2
+    	set academe 0
+    	set business 3
+    	set nga 2
+  ]
+  if population = "daanbantayan" [
+    	set blgu 4
+    	set mplgu 5
+    	set bd 11
+    	set academe 0
+    	set business 2
+    	set nga 0
+  ]
+  if population = "mercedes" [
+    	set blgu 4
+    	set mplgu 10
+    	set bd 0
+    	set academe 1
+    	set business 0
+    	set nga 1
+  ]
+  if population = "nasugbu" [
+    	set blgu 0
+    	set mplgu 0
+    	set bd 0
+    	set academe 0
+    	set business 0
+    	set nga 0
+  ]
+
+  if population = "lcli" [
+    	set blgu 38
+    	set mplgu 30
+    	set bd 13
+    	set academe 0
+    	set business 2
+    	set nga 2
+  ]
+  if population = "lchi" [
+    	set blgu 15
+    	set mplgu 12
+    	set bd 1
+    	set academe 0
+    	set business 18
+    	set nga 1
+  ]
+  if population = "hcli" [
+    	set blgu 43
+    	set mplgu 43
+    	set bd 6
+    	set academe 0
+    	set business 3
+    	set nga 4
+  ]
+  if population = "hchi" [
+    	set blgu 26
+    	set mplgu 44
+    	set bd 21
+    	set academe 5
+    	set business 6
+    	set nga 8
+  ]
+  if population = "universe" [
+    	set blgu 122
+    	set mplgu 129
+    	set bd 29
+    	set academe 5
+    	set business 29
+    	set nga 15
+  ]
+
   let filename ""
   foreach population-list
   [
