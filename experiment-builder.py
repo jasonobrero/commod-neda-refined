@@ -21,7 +21,7 @@ dinapigue = {'blgu': 16, 'mplgu': 2, 'bd': 0, 'academe': 0, 'business': 0, 'nga'
 anini_y = {'blgu': 4, 'mplgu': 3, 'bd': 6, 'academe': 0, 'business': 0, 'nga': 0}
 macarthur = {'blgu': 3, 'mplgu': 6, 'bd': 5, 'academe': 0, 'business': 0, 'nga': 0}
 pagsanghan = {'blgu': 13, 'mplgu': 5, 'bd': 0, 'academe': 0, 'business': 1, 'nga': 0}
-claveria = {'blgu': 0, 'mplgu': 0, 'bd': 0, 'academe': 0, 'business': 0, 'nga': 0}
+claveria = {'blgu': 7, 'mplgu': 8, 'bd': 0, 'academe': 1, 'business': 1, 'nga': 1}
 baliguian = {'blgu': 0, 'mplgu': 1, 'bd': 0, 'academe': 0, 'business': 0, 'nga': 0}
 socorro = {'blgu': 5, 'mplgu': 3, 'bd': 0, 'academe': 0, 'business': 5, 'nga': 0}
 bien_unido = {'blgu': 2, 'mplgu': 4, 'bd': 0, 'academe': 0, 'business': 12, 'nga': 1}
@@ -42,10 +42,10 @@ mercedes = {'blgu': 4, 'mplgu': 10, 'bd': 0, 'academe': 1, 'business': 0, 'nga':
 nasugbu = {'blgu': 0, 'mplgu': 0, 'bd': 0, 'academe': 0, 'business': 0, 'nga': 0}
 
 lcli = {'blgu': 38, 'mplgu': 30, 'bd': 13, 'academe': 0, 'business': 2, 'nga': 2}
-lchi = {'blgu': 15, 'mplgu': 12, 'bd': 1, 'academe': 0, 'business': 18, 'nga': 1}
+lchi = {'blgu': 22, 'mplgu': 20, 'bd': 1, 'academe': 1, 'business': 19, 'nga': 2}
 hcli = {'blgu': 43, 'mplgu': 43, 'bd': 6, 'academe': 0, 'business': 3, 'nga': 4}
 hchi = {'blgu': 26, 'mplgu': 44, 'bd': 21, 'academe': 5, 'business': 6, 'nga': 8}
-universe = {'blgu': 122, 'mplgu': 129, 'bd': 29, 'academe': 5, 'business': 29, 'nga': 15}
+universe = {'blgu': 129, 'mplgu': 137, 'bd': 29, 'academe': 6, 'business': 30, 'nga': 16}
 
 baseline = {'sufficiency-w': 25, 'accessibility-w': 25, 'adoption-w': 25, 'sustainability-w': 25}
 adoption = {'sufficiency-w': 10, 'accessibility-w': 30, 'adoption-w': 35, 'sustainability-w': 25}

@@ -1,4 +1,4 @@
-populations=(lcli lchi hcli hchi universe jomalig dinapigue)
+populations=(claveria lchi universe)
 scenarios=(bau fish-catch fisher-revenue both)
 criteria=(baseline accessibility sufficiency adoption sustainability)
 
